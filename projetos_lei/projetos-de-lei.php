@@ -79,7 +79,7 @@
 						</div>
 					</div>
 				</div>
-								<div class="col s12 m6 l4">
+				<div class="col s12 m6 l4">
 					<!--inicio do card projeto de lei-->
 					<div class="projeto1">
 						<div class="card">
@@ -87,7 +87,7 @@
 								<img class="activator" src="http://lorempixel.com/400/200">
 							</div>
 							<div class="card-content">
-								<span class="card-title activator grey-text text-darken-4">Projeto de lei 1<i class="material-icons right">more_vert</i></span>
+								<span class="card-title activator grey-text text-darken-4">Energia Renovável<i class="material-icons right">more_vert</i></span>
 								<p><a href="#">Clique aqui para acessar</a></p>
 							</div>
 							<div class="card-reveal">
@@ -97,15 +97,15 @@
 						</div>
 					</div>
 				</div>
-								<div class="col s12 m6 l4">
-					<!--inicio do card projeto de lei-->
+				<div class="col s12 m6 l4">
+					<!--inicio do card projeto de lei Ipê Amarelo -->
 					<div class="projeto1">
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
-								<img class="activator" src="http://lorempixel.com/400/200">
+								<img class="activator" src="../imgs/cards/ipe.jpg">
 							</div>
 							<div class="card-content">
-								<span class="card-title activator grey-text text-darken-4">Projeto de lei 1<i class="material-icons right">more_vert</i></span>
+								<span class="card-title activator grey-text text-darken-4">Ipê Amarelo<i class="material-icons right">more_vert</i></span>
 								<p><a href="#">Clique aqui para acessar</a></p>
 							</div>
 							<div class="card-reveal">
@@ -115,15 +115,15 @@
 						</div>
 					</div>
 				</div>
-								<div class="col s12 m6 l4">
-					<!--inicio do card projeto de lei-->
-					<div class="projeto1">
+				<div class="col s12 m6 l4">
+					<!--inicio do card projeto de lei grafico-->
+					<div class="projeto1"> 
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
-								<img class="activator" src="http://lorempixel.com/400/200">
+								<img class="activator" src="../imgs/cards/grafico.jpg">
 							</div>
 							<div class="card-content">
-								<span class="card-title activator grey-text text-darken-4">Projeto de lei 1<i class="material-icons right">more_vert</i></span>
+								<span class="card-title activator grey-text text-darken-4">Grafico<i class="material-icons right">more_vert</i></span>
 								<p><a href="#">Clique aqui para acessar</a></p>
 							</div>
 							<div class="card-reveal">
