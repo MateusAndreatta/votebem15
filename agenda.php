@@ -81,7 +81,7 @@
 					
 					echo "<div class='row'>
 					<div class='col s12 m6 center'>
-					 <img class='img' src='imgs/candidatos/candidatos-1.png'>
+					 <img class='img' width='200px' height='200px' src='imgs/eventos/$imagem'>
 					</div> 
 						<div class='col s12 m6'><a name='ev1'></a>
 							<h5>Nome:$nome </h5>
