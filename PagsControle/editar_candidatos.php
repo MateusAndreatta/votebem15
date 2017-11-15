@@ -7,6 +7,8 @@
 		$votebem -> execute();
 		
 		foreach($votebem as $candidato){
+			
+		}
 		
 		if(isset($_POST['enviar'])){
 			$nome              = $_POST["nome"];
@@ -24,7 +26,7 @@
 			$votebem -> execute(array($nome,$foto,$numero,$cargo,$cidade,$estado,$nascimento,$partido));
 			//header("Location:menu_candidatos.php?cadastro=ok");
 			}
-		}
+		
 	?>
 <!DOCTYPE html>
 <html>

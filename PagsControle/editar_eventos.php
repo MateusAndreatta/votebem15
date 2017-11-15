@@ -7,6 +7,7 @@
 		$votebem -> execute();
 		
 		foreach($votebem as $eventos){
+			$imgbdold = $eventos['imagem'];
 		
 		if(isset($_POST['enviar'])){
 			$nome      = $_POST['nome'];
@@ -15,7 +16,16 @@
 			$data      = $_POST['data'];
 			$horario   = $_POST['horario'];
 			$local     = $_POST['local'];
-			$nomeBdArq = "null";
+			$Arq               = $_FILES['img'];
+			$nomeArq           = $Arq['name'];
+			$tamanho           = $Arq['size'];
+			$tmp               = $Arq['tmp_name'];
+			$formato           = pathinfo($nomeArq, PATHINFO_EXTENSION);
+			$nomeBdArq         = uniqid().".".$formato;
+			$upload            = move_uploaded_file($tmp, '../imgs/eventos/'.$nomeBdArq );	
+
+			unlink("../imgs/eventos/$imgbdold");
+			
 
 			
 			include "conexao.php";
@@ -96,7 +106,7 @@
 					</form>
 				</div>
 				<div class='row'>
-					<form method="POST" action="../PaginasProcessamento/RecebeEvento.php" class="col s12" enctype="multipart/form-data">
+					<form method="POST" action="" class="col s12" enctype="multipart/form-data">
                         <div class="row">
                             <div class="input-field col s12 m6">
                                 <input id="nome" autofocus  name="nome" value='<?php if(isset($eventos)){echo $eventos['nome'];}?>'type="text" class="validate">
