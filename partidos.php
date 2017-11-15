@@ -45,7 +45,7 @@
 					
 					echo "<div class='row'>
 					<div class='col s12 m6 center'>
-					 <img class='img' width='100px' height='100px' src='imgs/partidos/$imagem'>
+					 <img class='img' width='200px' height='200px' src='imgs/partidos/$imagem'>
 					</div> 
 						<div class='col s12 m6'>
 							<h5>Nome:$nome</h5>

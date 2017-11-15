@@ -8,6 +8,7 @@
 		
 		foreach($votebem as $partido){
 			$imgbdold = $partido['imagem'];
+		}
 		
 		if(isset($_POST['enviar'])){
 			$nome              = $_POST["nome"];
@@ -30,7 +31,7 @@
 			$votebem -> execute(array($nome,$nomeBdArq,$sigla,$ano_fundacao,$ideais));
 			header("Location:menu_partidos.php?cadastro=ok");
 			}
-		}
+		
 	?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -57,26 +58,7 @@
 ?>
 	<body>
 		<main>
-			<nav>
-				<div class="nav-wrapper blue">
-					<a href="../index.php" class="brand-logo"><img src="../imgs/nav-logo.png" title="Vote bem" alt="Vote Bem"></a>
-					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-					<ul class="right hide-on-med-and-down">
-						<li><a href="painel.php">Painel de Controle</a></li>
-						<li><a href="../galeria.html">Galeria</a></li>
-						<li><a href="../sobre.html">Sobre o Movimento</a></li>
-						<li><a href="../agenda.php">Agenda</a></li>
-						<li><a href="../login.php" class="waves-effect waves-light btn blue lighten-2" href="login.html">Login</a></li>
-					</ul>
-					<ul class="side-nav" id="mobile-demo">
-						<li><a href="painel.php">Painel de Controle</a></li>
-						<li><a href="../galeria.html">Galeria</a></li>
-						<li><a href="../sobre.html">Sobre o Movimento</a></li>
-						<li><a href="../agenda.php">Agenda</a></li>
-						<li><a href="../login.php">Login</a></li>
-					</ul>
-				</div>
-			</nav>	
+			<?php include "../PaginasProcessamento/nav2.php"; ?>
 			<nav>
 				<div class="nav-wrapper blue espacamento-lateral">
 					<div class="col s12">
@@ -121,7 +103,7 @@
 					</form>
 				</div>
 				<div class='row'>
-					<form method='POST' action='' class='col s12' enctype="multpart/form-data">
+					<form method='POST' action='' class='col s12' enctype="multipart/form-data">
 							<div class='input-field col s12 m6'>
 								<input id='nome' value='<?php if(isset($partido)){echo $partido['nome'];}?>' autofocus required name='nome' type='text' class='validate'>
 								<label for='first_name'>Nome</label>
