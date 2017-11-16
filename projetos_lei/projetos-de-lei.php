@@ -91,8 +91,8 @@
 								<p><a href="#">Clique aqui para acessar</a></p>
 							</div>
 							<div class="card-reveal">
-								<span class="card-title grey-text text-darken-4">Projeto de lei 2<i class="material-icons right">close</i></span>
-								<p>Resumo do projeto de lei.</p>
+								<span class="card-title grey-text text-darken-4">Projeto de lei Nº: 942/2015<i class="material-icons right">close</i></span>
+								<p>Dispõe sobre a obrigatoriedade de indústrias situadas no estado do paraná a instalarem equipamentos de energia solar, térmica e/ou eólica.</p>
 							</div>
 						</div>
 					</div>
@@ -127,8 +127,8 @@
 								<p><a href="#">Clique aqui para acessar</a></p>
 							</div>
 							<div class="card-reveal">
-								<span class="card-title grey-text text-darken-4">Projeto de lei 2<i class="material-icons right">close</i></span>
-								<p>Resumo do projeto de lei.</p>
+								<span class="card-title grey-text text-darken-4">Projeto de lei Nº 697/2015<i class="material-icons right">close</i></span>
+								<p>Altera dispositivos da lei nº 15.562, de 7 de julho de 2007, que dispõe sobre o tratamento diferenciado e favorecido a ser dispensado às microempresas e empresas de pequeno porte, no estado do paraná, alterando para r$ 900.000,00 (novecentos mil reais) o parâmetro de isenção do ICMS a ser observado pelas empresas optantes pelo simples nacional.</p>
 							</div>
 						</div>
 					</div>
