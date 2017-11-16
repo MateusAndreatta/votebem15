@@ -2,12 +2,13 @@
 		@$id   = $_GET['id'];
 		
 		include "../PaginasProcessamento/conexao.php";
-		$sql = "SELECT * FROM tb_candidatos WHERE id_candidato= $id";	
+		$sql = "SELECT *,tb_partidos.nome as nome_partido, tb_candidatos.nome AS nome_candidato FROM tb_candidatos,tb_partidos WHERE id_candidato= $id AND tb_partidos.id_partido=tb_candidatos.id_partido";	
 		$votebem = $banco -> prepare($sql);
 		$votebem -> execute();
 		
 		foreach($votebem as $candidato){
-			
+			$imgbdold = $candidato['foto'];
+			$nomeCandidato = $candidato['nome_candidato'];
 		}
 		
 		if(isset($_POST['enviar'])){
@@ -17,14 +18,22 @@
 			$cidade            = $_POST["cidade"];
 			$estado            = $_POST["estado"];
 			$nascimento        = $_POST["nascimento"];
-			$partido           = $_POST["id_partido"]; //nao recebe partido
-			$foto              = "img";
+			$partido           = $_POST["partido"]; //nao recebe partido
+			$Arq          = $_FILES['img'];
+            $nomeArq      = $Arq['name'];
+            $tamanho      = $Arq['size'];
+            $tmp          = $Arq['tmp_name'];
+            $formato      = pathinfo($nomeArq, PATHINFO_EXTENSION);
+            $nomeBdArq    = uniqid().".".$formato;
+            $upload       = move_uploaded_file($tmp, '../imgs/candidatos/'.$nomeBdArq );
+
+            unlink("../imgs/candidatos/$imgbdold");
 			
 			include "../PaginasProcessamento/conexao.php";
 			$sql = "UPDATE tb_candidatos SET nome=?, foto=?, numero_candidato=?, cargo=?, cidade=?, estado=?, data_nascimento=?, id_partido=? WHERE id_candidato='$id'";	
 			$votebem = $banco -> prepare($sql);
-			$votebem -> execute(array($nome,$foto,$numero,$cargo,$cidade,$estado,$nascimento,$partido));
-			//header("Location:menu_candidatos.php?cadastro=ok");
+			$votebem -> execute(array($nome,$nomeBdArq,$numero,$cargo,$cidade,$estado,$nascimento,$partido));
+			header("Location:menu_candidatos.php?cadastro=ok");
 			}
 		
 	?>
@@ -99,10 +108,10 @@
 					</form>
 				</div>
 				<div class='row'>
-					<form method="POST" action="" class="col s12" enctype="multipart/form-data">
+					<form method="POST" action="" class="col s12" id="form" enctype="multipart/form-data">
                         <div class="row">
                             <div class="input-field col s12 m6">
-                                <input id="nome" autofocus required name="nome" type="text" value='<?php if(isset($candidato)){echo $candidato['nome'];}?>'class="validate">
+                                <input id="nome" autofocus required name="nome" type="text" value='<?php if(isset($candidato)){echo $nomeCandidato;}?>'class="validate">
                                 <label for="first_name">Nome</label>
                             </div>
                             <div class="input-field col s12 m6">
@@ -142,8 +151,8 @@
 							<label for="ano_fundacao">Data de Nascimento</label>
 						</div>
 						<div class="input-field col s12 m6">
-							<select name="partido" required id="seleciona" required>
-								<option value="" disabled selected><?php if(isset($candidato)){echo $candidato['partido'];}?></option>
+							<select name="partido"  form="form" id="seleciona" required>
+								<option value="" disabled selected><?php if(isset($candidato)){echo $candidato['nome_partido'];}?></option>
 								<?php 
 									include "../PaginasProcessamento/conexao.php";
 									$sql     = "SELECT * FROM tb_partidos";
