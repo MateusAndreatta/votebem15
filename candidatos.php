@@ -48,7 +48,7 @@
 					
 					echo "<div class='row'>
 							<div class='col s12 m6 center'>
-								<img class='img' src='imgs/candidatos/$foto'>
+								<img width='200px' height='200px' class='img' src='imgs/candidatos/$foto'>
 							</div> 
 							<div class='col s12 m6'><a name='pedro'></a>
 								<p><h5>Nome:$nome</h5></p>

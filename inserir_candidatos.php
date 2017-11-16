@@ -14,7 +14,7 @@
     $formato           = pathinfo($nomeArq, PATHINFO_EXTENSION);
     $nomeBdArq         = uniqid().".".$formato;
 	$upload            = move_uploaded_file($tmp, 'imgs/candidatos/'.$nomeBdArq );	
-
+	
 	include "PaginasProcessamento/conexao.php";
 	$sql     = "INSERT INTO tb_candidatos VALUES(?,?,?,?,?,?,?,?,?)";
 	$votebem = $banco -> prepare($sql);	

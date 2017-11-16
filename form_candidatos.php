@@ -15,6 +15,13 @@
 		$sql     = "SELECT * FROM tb_partidos";
 		$votebem = $banco -> prepare($sql);
 		$votebem -> execute();
+		
+		$contador = 0;
+		foreach($votebem as $partidos){
+			$idPartido[$contador] = $partidos['id_partido'];
+			$nomePartido[$contador] = $partidos['nome'];
+			$contador++;
+		}
 	session_start(); //verificar session
 	if(isset($_SESSION['login'])){
 		if($_SESSION['login'] == 1){
@@ -46,7 +53,7 @@
 					</div>
 				</div>
 				<div class="row">
-                    <form method="POST" action="inserir_candidatos.php" class="col s12" enctype="multipart/form-data">
+                    <form method="POST" action="inserir_candidatos.php" class="col s12" enctype="multipart/form-data" id="form">
                         <div class="row">
                             <div class="input-field col s12 m6">
                                 <input id="nome" autofocus required name="nome" type="text" class="validate">
@@ -89,11 +96,11 @@
 							<label for="ideais">Data de Nascimento</label>
 						</div>
 						<div class="input-field col s12 m6">
-							<select name="partido" id="seleciona">
-								<option disabled selected>Selecione o partido</option>
+							<select name="partido" id="seleciona" form="form">
+								<option value="" selected disabled>Selecione o partido</option>
 								<?php 							
-									foreach($votebem as $bol){ 
-										echo "<option value=".$bol['id_partido'].">".$bol['nome']."</option>";
+									for($mostrar=0;$mostrar<$contador;$mostrar++){
+										echo "<option value='".$idPartido[$mostrar]."'>".$nomePartido[$mostrar]."</option>";
 									}
 								?> 
 							</select>
