@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Vote Bem - Projeto de Reutilização do Óleo</title>
+		<title>Vote Bem - Replantio de árvore nativa</title>
 		<link rel="icon" href="../imgs/favicon.ico">
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,13 +18,13 @@
                 <div class="col s12">
                   <a href="../index.php" class="breadcrumb">Home</a>
                   <a href="projetos-de-lei.php" class="breadcrumb">Projetos de lei</a>
-                  <a href="projetoReutilizacaoOleo.html" class="breadcrumb">Reutilização de óleo</a>
+                  <a href="projetoIpe.php" class="breadcrumb">Replantio de árvore nativa</a>
                 </div>
               </div>
             </nav>
 
             <div class="parallax-container">
-                <h1 class="center text-banners white-text">Reutilização do óleo de cozinha</h1>
+                <h1 class="center text-banners white-text">Replantio de árvore nativa</h1>
                 <div class="parallax">
                     <img src="../imgs/banners/oleo-banner.png"/>
                 </div>
@@ -33,18 +33,8 @@
             
 			<div class="container">	
 			
-				<p class="justificar flow-text tipografia" id="capitular"> Descarte correto e reutilização do óleo de cozinha 
-				usado. O nosso projeto baseia se na Logística reversa, ou seja, no fato de reverter da melhor forma e reciclar
-				produtos reaproveitáveis visando a melhora do meio ambiente. Através de parcerias com indústrias, faculdades e
-				com o apoio do governo fazer com que um produto que é descartado de uma forma errada e que traz malefícios traga
-				benefícios para o meio ambiente e para as indústrias. A nossa proposta é de transformação e reciclagem do óleo
-				de cozinha usado. As empresas como restaurantes, padarias e lanchonetes fariam o armazenamento da forma correta
-				para ser realizado a coleta para o descarte de forma responsável. Lembrando que cada litro de óleo mal descartado
-				pode poluir mais de 20 mil litros de água potável. Esse projeto tem como objetivo alcançar a população e a 
-				deixar consciente sobre o mal descarte do óleo. A Usina Móvel de Biodiesel é um projeto inovador e viável que
-				com certeza trará um novo estilo de vida para as pessoas e o meio ambiente agradecerá. Através de um baixo investimento
-				do munícipio levará um novo estilo de pensar e forma de agir as pessoas.
-                <small><br>Viabilizado por: Ana Elize de Oliveira Martinez, Marianna Calesco, Julio Cesar Alves Bodanazi</small>
+				<p class="justificar flow-text tipografia" id="capitular"> É crime podar uma árvore, porém, se a poda ou corte da árvore em questão (Ipê) estiver em sua propriedade urbana e, para fazer ou proteger alguma edificação no local ou alguma modificação na área, não há por que haver interferência da fiscalização. Somente nos casos em que a vegetação esteja inserida em uma área de proteção ambiental é que eles podem se sobrepor ao direito de propriedade, visando o interesse da comunidade ou coletivo, como é o direito ambiental. Sendo assim, não haverá incomodo em conseguir autorização da poda, caso for para replantar a árvore em outro local do terreno.
+                <small><br>Viabilizado por: Andre Luiz Santos, Humberto Andrade, Kaique Bortholomei, Marcelo Finatti, Valdeci Storrer </small>
                 </p>
 				
 			</div>

@@ -18,13 +18,13 @@
                 <div class="col s12">
                   <a href="../index.php" class="breadcrumb">Home</a>
                   <a href="projetos-de-lei.php" class="breadcrumb">Projetos de lei</a>
-                  <a href="projetoReutilizacaoOleo.html" class="breadcrumb">QR Code</a>
+                  <a href="projetoStartup.php" class="breadcrumb">Startup</a>
                 </div>
               </div>
             </nav>
 
             <div class="parallax-container">
-                <h1 class="center text-banners white-text">QR Code</h1>
+                <h1 class="center text-banners white-text">Startup</h1>
                 <div class="parallax">
                     <img src="../imgs/banners/oleo-banner.png"/>
                 </div>
@@ -33,9 +33,9 @@
             
 			<div class="container">	
 			
-				<p class="justificar flow-text tipografia" id="capitular"> A garantia aos consumidores através de mais um meio de acesso às informações já contida nas embalagens de uma forma mais abrangente e detalhada, bem como dar acessibilidade aos consumidores com deficiência visual através da sinalização do código por leitura tátil (BRAILLE) o qual não dependerá de outras pessoas para ajudar nas compras, pois, por meio de um aplicativo específico, as informações também poderão ser fornecidas através de áudio, aumentando o consumo deste público em mercados, além de fomentar o comercio regional, a economia local bem como tutelar o meio ambiente, além de dispor informações relativamente importantes ao consumidor, divulgar promoções, novos produtos e outras técnicas de marketing, auxiliando em suas atividades
-                <small><br>Amanda Luiza Kanarski, Camila de Pádua D. Desidélio,
-Jéssica Camila Mysczak, Mariana Terencio</small>
+				<p class="justificar flow-text tipografia" id="capitular"> Startup é o ato de começar algo, normalmente relacionado ao empreendedorismo tecnológico. As startups são empresas que estão no início de suas atividades e buscam explorar atividades inovadoras no mercado. São empresas jovens, que buscam a inovação em qualquer área ou ramo de atividade, procurando desenvolver um modelo de negócio escalável e que seja repetível.
+					Diante disso a necessidade de desenvolver políticas públicas estaduais que possam dar apoio e segurança às startups Paranaenses, principalmente em sua fase inicial de constituição e na fase de consolidação de suas atividades.
+                <small><br>Brunna Beatriz, Leticia Caroline, Vitoria Batista, Thayná dos Santos, Ana Paula Silva</small>
                 </p>
 				
 			</div>

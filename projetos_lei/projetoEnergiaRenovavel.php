@@ -18,13 +18,13 @@
                 <div class="col s12">
                   <a href="../index.php" class="breadcrumb">Home</a>
                   <a href="projetos-de-lei.php" class="breadcrumb">Projetos de lei</a>
-                  <a href="projetoReutilizacaoOleo.html" class="breadcrumb">Reutilização de óleo</a>
+                  <a href="projetoEnergiaRenovavel.php" class="breadcrumb">Energia Renovável</a>
                 </div>
               </div>
             </nav>
 
             <div class="parallax-container">
-                <h1 class="center text-banners white-text">Reutilização do óleo de cozinha</h1>
+                <h1 class="center text-banners white-text">Energia Renovável</h1>
                 <div class="parallax">
                     <img src="../imgs/banners/oleo-banner.png"/>
                 </div>
@@ -33,18 +33,8 @@
             
 			<div class="container">	
 			
-				<p class="justificar flow-text tipografia" id="capitular"> Descarte correto e reutilização do óleo de cozinha 
-				usado. O nosso projeto baseia se na Logística reversa, ou seja, no fato de reverter da melhor forma e reciclar
-				produtos reaproveitáveis visando a melhora do meio ambiente. Através de parcerias com indústrias, faculdades e
-				com o apoio do governo fazer com que um produto que é descartado de uma forma errada e que traz malefícios traga
-				benefícios para o meio ambiente e para as indústrias. A nossa proposta é de transformação e reciclagem do óleo
-				de cozinha usado. As empresas como restaurantes, padarias e lanchonetes fariam o armazenamento da forma correta
-				para ser realizado a coleta para o descarte de forma responsável. Lembrando que cada litro de óleo mal descartado
-				pode poluir mais de 20 mil litros de água potável. Esse projeto tem como objetivo alcançar a população e a 
-				deixar consciente sobre o mal descarte do óleo. A Usina Móvel de Biodiesel é um projeto inovador e viável que
-				com certeza trará um novo estilo de vida para as pessoas e o meio ambiente agradecerá. Através de um baixo investimento
-				do munícipio levará um novo estilo de pensar e forma de agir as pessoas.
-                <small><br>Viabilizado por: Ana Elize de Oliveira Martinez, Marianna Calesco, Julio Cesar Alves Bodanazi</small>
+				<p class="justificar flow-text tipografia" id="capitular">A contribuição das industrias para a diminuição do impacto de escassez de recursos hídricos, sendo estes de suma importância para o consumo humano. A produção de sua própria energia a partir de fontes renováveis estão em consonância em uma tendência global  de conscientização em relação à problemas ambientais e, através de incentivos fornecidos pelo Estado, a instalação desses equipamentos e utilização da energia renovável se torna interessante para todos.
+                <small><br>Viabilizado por: Adelar Carniel Bertussi; Robertt Andreu de Oliveira e Weslley Martins da Conceição </small>
                 </p>
 				
 			</div>

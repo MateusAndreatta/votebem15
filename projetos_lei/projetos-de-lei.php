@@ -84,7 +84,7 @@
 					<div class="projeto1">
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
-								<img class="activator" src="http://lorempixel.com/400/200">
+								<img class="activator" src="../imgs/cards/energia.png">
 							</div>
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4 flow-text">Energia Renovável<i class="material-icons right">more_vert</i></span>
@@ -123,8 +123,8 @@
 								<img class="activator" src="../imgs/cards/grafico.jpg">
 							</div>
 							<div class="card-content">
-								<span class="card-title activator grey-text text-darken-4 flow-text">Grafico<i class="material-icons right">more_vert</i></span>
-								<p><a href="">Clique aqui para acessar</a></p>
+								<span class="card-title activator grey-text text-darken-4 flow-text">ICMS<i class="material-icons right">more_vert</i></span>
+								<p><a href="projetoIcms.php">Clique aqui para acessar</a></p>
 							</div>
 							<div class="card-reveal">
 								<span class="card-title grey-text text-darken-4">Projeto de lei Nº 697/2015<i class="material-icons right">close</i></span>
