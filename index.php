@@ -7,6 +7,7 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 		<link rel="stylesheet" href="css/estilo.css">
+        <link type="text/css" rel="stylesheet" href="css/cards.css" media="screen,projection" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
 	<body>
@@ -14,9 +15,8 @@
 			<?php include "PaginasProcessamento/nav.php"; ?>
 			<div class="container">
 				<div class="row">
-					<div class="col s12 m6 l4">						
+                    <div class="cards-container center">
 						<!--inicio do card QUIZ-->
-						<div class="quiz">
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
                                     <img class="activator" src="imgs/cards/Quiz.jpg">
@@ -30,11 +30,6 @@
                                     <p>Venha testar seu conhecimento sobre politíca e ver se voce realmente sabe sobre o assunto.</p>
                                 </div> 
                             </div>
-						</div>
-					</div>
-					<!--inicio do card Projetos-->
-					<div class="projetos">
-                        <div class="col s12 m6 l4">
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
                                     <img class="activator" src="imgs/cards/projetos.jpg">
@@ -48,11 +43,6 @@
                                     <p>Voce sabe como funciona um projeto de lei? E como é feito? Descubra isso agora! </p>
                                 </div>
                             </div>
-                        </div>
-					</div>
-					<div class="col s12 m6 l4">
-						<!--inicio do card Saiba mais-->
-						<div class="saiba">
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
 								<img class="activator" src="imgs/cards/saibamais.jpg">
@@ -66,12 +56,6 @@
 								<p>Aqui voce pode encontar mais sobre assustos sobre politíca, partidos, candidatos e sobre eventos e muito mais.</p>
 							</div>
 						</div>
-						</div>
-					</div>
-					
-					<div class="col s12 m6 l4">
-						<!--inicio do card Noticias-->
-						<div class="noticias">
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
 								<img class="activator" src="imgs/cards/Jornal.jpg">
@@ -85,11 +69,6 @@
 								<p>Fique por dentro do que acontece com o mundo politico e sobre todas as ações realizadas nesse meio. </p>
 							</div>
 						</div>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<!--inicio do card Forum-->
-						<div class="forum">
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
 								<img class="activator" src="imgs/cards/forum.jpg">
@@ -103,11 +82,7 @@
 								<p>Debata sobre determinados assuntos e saiba mais sobre a opinião dos outros para determinados assuntos.</p>
 							</div>
 						</div>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
 						<!--inicio do card-->
-						<div class="candidatos">
 							<div class="card">
 								<div class="card-image waves-effect waves-block waves-light">
 									<img class="activator" src="imgs/cards/candidatos.jpg">
@@ -124,7 +99,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 				<!-- FIM DOS BLOCOS -->	
 		</main>
 		<footer class="page-footer blue">
