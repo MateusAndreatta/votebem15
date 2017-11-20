@@ -33,10 +33,19 @@
             
 			<div class="container">	
 			
-				<p class="justificar flow-text tipografia" id="capitular"> É crime podar uma árvore, porém, se a poda ou corte da árvore em questão (Ipê) estiver em sua propriedade urbana e, para fazer ou proteger alguma edificação no local ou alguma modificação na área, não há por que haver interferência da fiscalização. Somente nos casos em que a vegetação esteja inserida em uma área de proteção ambiental é que eles podem se sobrepor ao direito de propriedade, visando o interesse da comunidade ou coletivo, como é o direito ambiental. Sendo assim, não haverá incomodo em conseguir autorização da poda, caso for para replantar a árvore em outro local do terreno.
+				<p class="justificar flow-text tipografia" id="capitular"> É crime podar uma árvore, porém, se a poda ou corte da árvore em questão (Ipê) estiver em sua propriedade urbana e, para fazer ou proteger alguma edificação no local ou alguma modificação na área, não há por que haver interferência da fiscalização. Somente nos casos em que a vegetação esteja inserida em uma área de proteção ambiental é que eles podem se sobrepor ao direito de propriedade, visando o interesse da comunidade ou coletivo, como é o direito ambiental. Sendo assim, não haverá incômodo em conseguir autorização da poda, caso for para replantar a árvore em outro local do terreno.
                 <small><br>Viabilizado por: Andre Luiz Santos, Humberto Andrade, Kaique Bortholomei, Marcelo Finatti, Valdeci Storrer </small>
                 </p>
 				
+                <div class="card-panel col s12 m6 right">
+                    <h4>Baixar o PDF
+
+                        <a class="btn-floating btn-large waves-effect waves-light red right" href="../projetos_lei/pdfs/PROJETO_DE_LEI_333_2016.pdf" download><i class="material-icons"><i class="material-icons">file_download</i></i></a>
+                        
+                    </h4>
+                    <div id="espace"></div>
+                </div>
+                
 			</div>
 
 		</main>
@@ -44,7 +53,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><a href="index.php"></a><img src="../imgs/footer-logo.png"></p>
+						<p><a href="../index.php"><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

@@ -14,12 +14,6 @@
 				font-size: 28px;
 			}
 			
-			#sobre {
-				margin-top: 50px;
-				font-size: 20px;
-				margin-bottom: 15px;
-			}
-			
 			.cartao1 {
 				margin-top: 15px;
 				font-size: 18px;
@@ -35,44 +29,50 @@
 				<div class="nav-wrapper blue espacamento-lateral">
 					<div class="col s12">
 						<a href="index.php" class="breadcrumb">Home</a>
-						<a href="sobre.html" class="breadcrumb">Sobre o movimento</a>
+						<a href="sobre.php" class="breadcrumb">Sobre o movimento</a>
 					</div>
 				</div>
 			</nav>	
+			<div class="center">
+				<h1>Sobre o Movimento</h1>
+			</div>
 			<div class="container">
-				<h1 class="center">Sobre o Movimento</h1>
-				<h2 class="cor center">O que é o Movimento Vote Bem ?</h2>
-				<p id="sobre">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus porta, faucibus ex in, egestas libero. Nam dignissim pretium feugiat. 
-					Fusce cursus dapibus suscipit. Proin hendrerit non sapien sit amet tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean
-					interdum eu nisi non tristique. Integer quis condimentum metus. Aliquam pharetra, enim sit amet mattis rhoncus, lorem arcu tristique mauris, laoreet tincidunt elit felis non est. Duis at lacinia metus.
-					dcipit. Proin hendrerit non snteges.  
-				</p>
+				<div class="row">
+					<div class="flow-text"><br><!--inicio saiba+ -->			
+						<p class="justificar" id="capitular">
+							O  movimento Vote Bem é uma ação apartidária, ou seja, não defende nenhum partido específico, sendo assim o objetivo desse projeto é promover a conscientização de toda a população sobre o poder que um único voto possui.
+						</p>
+						<p class="justificar">
+							Desde 2014, esse projeto vem através de diversas formas, por exemplo, compartilhando ideias e  opiniões, proporcionando a sociedade informações sobre as pessoas que nos representam e  possuem o poder de influenciar diretamente o dia a dia de todos os cidadãos.
+						</p>
+						<p class="justificar">
+							O Vote Bem visa a melhoria do governo juntamente com o aprofundamento político da comunidade, para que dessa maneira todos possam atuar ativamente de decisões que determinam o futuro da nação.
+						</p>
+						<p class="justificar">
+							Junto com diversas instituições, esperamos que você exerça continuamente sua cidadania e em busca de país melhor, o primeiro passo é votar bem.
+						</p>
+					</div><br>
+				
+				</div>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
 						<div class="card horizontal">
-							<div class="card-image">
-								<img src="imgs/sobre/user-shape.png" class="responsive-img">
-							</div>
 							<div class="card-stacked">
 								<div class="card-content">
-									<p class="flow-text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-									<div class="right-align flow-text cartao1">- Finibus Bonorum</div>
+									<p class="flow-text">"Um voto é como um rifle: sua utilidade depende do caráter de quem usa".</p>
+									<div class="right-align flow-text cartao1">- Theodore Roosevelt</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col s12">
 						<div class="card horizontal">
-							<div class="card-image">
-								<img src="imgs/sobre/user-shape.png" class="responsive-img">
-							</div>
 							<div class="card-stacked">
 								<div class="card-content">
-									<p class="flow-text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-									<div class="right-align flow-text cartao1">- Finibus Bonorum</div>
+									<p class="flow-text">"O futuro dependerá daquilo que fazemos no presente"</p>
+									<div class="right-align flow-text cartao1">- Mahatma Gandhi</div>
 								</div>
 							</div>
 						</div>
@@ -84,7 +84,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><a href="index.php"></a><img src="imgs/footer-logo.png"></p>
+						<p><a href="index.php"><img src="imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

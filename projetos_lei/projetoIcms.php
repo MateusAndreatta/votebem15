@@ -37,6 +37,15 @@
 Sendo o Estado um agente direto neste cenário, possibilitando um aumento na arrecadação através deste benefício, pois havendo maior circulação da moeda no mercado consequentemente um aumento na arrecadação.
                 <small><br>Viabilizado por: Ana Maria Santiago da Silva, Bruna Luzia Souza Zamaro, Nicoli Caroline Perez, Valéria de Vargas Moraes</small>
                 </p>
+                
+                <div class="card-panel col s12 m6 right">
+                    <h4>Baixar o PDF
+
+                        <a class="btn-floating btn-large waves-effect waves-light red right" href="../projetos_lei/pdfs/PROJETO_DE_LEI%20FINALIZADO_697_2015.pdf" download><i class="material-icons"><i class="material-icons">file_download</i></i></a>
+                        
+                    </h4>
+                    <div id="espace"></div>
+                </div>
 				
 			</div>
 
@@ -45,7 +54,7 @@ Sendo o Estado um agente direto neste cenário, possibilitando um aumento na arr
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><a href="index.php"></a><img src="../imgs/footer-logo.png"></p>
+						<p><a href="../index.php"><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

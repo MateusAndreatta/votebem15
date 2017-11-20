@@ -164,7 +164,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><a href="index.php"></a><img src="../imgs/footer-logo.png"></p>
+						<p><a href="index.php"></a><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

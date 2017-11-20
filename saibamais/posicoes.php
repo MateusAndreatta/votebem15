@@ -28,19 +28,19 @@
 				<div class="row">
 					<div class="flow-text"><br><!--inicio saiba+ -->
 						<h4 class="center">Lados ideológicos da política.</h4>			
-							<p class="justificar">De uns anos para cá a política virou algo parecido com o futebol, se eu tenho um lado político diferente de outro individuo eu tenho a necessidade de brigar com ele, como o movimento do Vote Bem é apartidário, nós vamos mostrar os dois lados da moeda e assim ajudar você a escolher sua posição política.
-								Segundo pesquisas 50% da população brasileira não sabe qual é sua posição política e muito menos sabem o que a “direita” e “esquerda” defendem, para começarmos a ter uma noção melhor temos que ir na origem desses termos. Esses termos começaram a ser usados na França do século 18, e se início quando os burgueses franceses não concordaram com a participação dos mais pobres na Assembleia Nacional Constituinte e assim em forma de protesto eles se sentaram ao lado direito, e as pessoas que defendiam a participação das pobre e trabalhadores se sentaram à esquerda.
+							<p class="justificar">De uns anos para cá a política virou algo parecido com o futebol, se eu tenho um lado político diferente de outro indivíduo eu tenho a necessidade de brigar com ele, como o movimento do Vote Bem é apartidário, nós vamos mostrar os dois lados da moeda e assim ajudar você a escolher sua posição política.
+								Segundo pesquisas 50% da população brasileira não sabe qual é sua posição política e muito menos sabem o que a “direita” e “esquerda” defendem, para começarmos a ter uma noção melhor temos que ir na origem desses termos. Esses termos começaram a ser usados na França do século 18, e se iniciou quando os burgueses franceses não concordaram com a participação dos mais pobres na Assembleia Nacional Constituinte e assim em forma de protesto eles se sentaram ao lado direito, e as pessoas que defendiam a participação das pobre e trabalhadores se sentaram à esquerda.
 							</p>
 						<h4>Esquerda:</h4>
 							<p class="justificar">Partidos de esquerda normalmente são voltados para ideais socialistas e comunistas (os ideais comunistas são baseados nas ideias de Karl Marx), e uma das maiores nações que eram neste modo político foi a URSS e atualmente temos Cuba e a Coreia do Norte.</p>
-						<h4>Caracteristicas:</h4>
+						<h4>Características:</h4>
 							<p class="justificar">Não existência de classes sociais;<br>
 								Economia controlada pelo estado;<br>
 								Estatização de empresas e de terras;<br>
 							</p>
 							<h4>Direita:</h4>
-							<p class="justificar">Partidos que se intitulam de direita tem ideias mais liberais (liberais são aqueles que defendem a não intervenção do estado na economia) economicamente e suas ideias são contrarias ao socialismo, a direita totalmente adepta ao capitalismo. Os países mais conhecidos são os Estados Unidos, Inglaterra, etc.</p>
-						<h4>Caracteristicas:</h4>
+							<p class="justificar">Partidos que se intitulam de direita tem ideias mais liberais (liberais são aqueles que defendem a não intervenção do estado na economia) economicamente e suas ideias são contrárias ao socialismo, a direita totalmente adepta ao capitalismo. Os países mais conhecidos são os Estados Unidos, Inglaterra, etc.</p>
+						<h4>Características:</h4>
 							<p class="justificar">Existência de classes sociais;<br>
 								Economia se autorregula, sem intervenção do estado;<br>
 								Não centralização do poder;<br>
@@ -57,7 +57,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><a href="index.php"></a><img src="../imgs/footer-logo.png"></p>
+						<p><a href="../index.php"><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

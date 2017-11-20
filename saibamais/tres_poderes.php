@@ -27,10 +27,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="flow-text"><br>
-						<p class="justificar" id="capitular">O conceito da tripartite (divisão da política em 3 tipos de governos diferentes) é falada diversas vezes na história, e um dos primeiros autores a falar sobre esse assunto é o pensador grego Aristóteles na sua obra “A política”, e lá Aristóteles defendia que o governo precisaria se separar em três. Hoje o no Brasil não aplicamos as mesmas ideias de Aristóteles, pois o pensador grego defendia que o estado deveria ser divido em Poder Deliberativo, Poder Executivo e o Poder Judiciário.</p>
-						<p>Porem atualmente não utilizamos o Poder Deliberativo, mas sim o Poder Legislativo.</p><br>
+						<p class="justificar" id="capitular">O conceito da tripartite (divisão da política em 3 tipos de governos diferentes) é falada diversas vezes na história, e um dos primeiros autores a falar sobre esse assunto é o pensador grego Aristóteles na sua obra “A política”, e lá Aristóteles defendia que o governo precisaria se separar em três. Hoje no Brasil não aplicamos as mesmas ideias de Aristóteles, pois o pensador grego defendia que o estado deveria ser divido em Poder Deliberativo, Poder Executivo e o Poder Judiciário.</p>
+						<p>Porém atualmente não utilizamos o Poder Deliberativo, mas sim o Poder Legislativo.</p><br>
 						<h4 class="center">Executivo</h4>			
-							<p class="justificar">Esse poder é responsável por garantir que todas as necessidades e os direitos dos cidadãos. E essa garantia deve estar de acordo com a atual Constituição Federal, como o sistema adotado pelo Brasil é o presidencialista o líder do Poder Executivo é o atual Presidente, que por sua vez é eleito pelo voto democrático.</p>
+							<p class="justificar">Esse poder é responsável por garantir todas as necessidades e os direitos dos cidadãos. E essa garantia deve estar de acordo com a atual Constituição Federal, como o sistema adotado pelo Brasil é o presidencialista o líder do Poder Executivo é o atual Presidente, que por sua vez é eleito pelo voto democrático.</p>
 									<p>Requisitos para se candidatar a cargos do Poder Executivo:</p>
 									<p>o Ser brasileiro de nascença;</p>
 									<p>o Possuir uma idade mínima de 35 anos;</p>
@@ -38,7 +38,7 @@
 									<p>o Ser afiliado a uma agremiação ou partido político;</p>
 									<p>o Entre outros pré-requisitos.</p></div><br>
 					<div class="flow-text">
-						<h4 class="center">Judíciario</h4>			
+						<h4 class="center">Judiciário</h4>			
 						<p class="justificar">É responsável por garantir os direitos individuais, sociais, coletivos e também é responsável pela resolução de conflitos jurídicos.</p> 
 								<p>Órgãos que são de responsabilidade do Judiciário:</p>
 								<p>o	Supremo Tribunal Federal;</p>
@@ -47,7 +47,7 @@
 								<p>o	Justiça do Trabalho;</p>
 								<p>o	Justiça Eleitoral;</p>
 								<p>o	Justiça Militar;</p>
-								<p>o	Justiças Estaduais;</p>
+								<p>o	Justiças Estaduais.</p>
 						</div><br>
 					<div class="flow-text">
 						<h4 class="center">Legislativo</h4>			
@@ -67,7 +67,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><a href="index.php"></a><img src="../imgs/footer-logo.png"></p>
+						<p><a href="../index.php"><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

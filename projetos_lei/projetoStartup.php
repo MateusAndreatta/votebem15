@@ -12,17 +12,20 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 
-    <style>
-    
-        #teste{
-            float: right;
-            
-        }
-        #teste2{
-            float: left;
-        }
-    </style>
-    
+<style>
+    #teste {
+        float: right;
+
+    }
+
+    #teste2 {
+        float: left;
+    }
+    #espace{
+        margin-bottom: 35px;
+    }
+</style>
+
 <body>
     <main>
         <?php include "../PaginasProcessamento/nav2.php"; ?>
@@ -46,15 +49,17 @@
 
         <div class="container">
             <div class="row">
-                <p class="justificar flow-text tipografia" id="capitular"> Startup  é o ato de começar algo, normalmente relacionado ao empreendedorismo tecnológico. As startups são empresas que estão no início de suas atividades e buscam explorar atividades inovadoras no mercado. São empresas jovens, que buscam a inovação em qualquer área ou ramo de atividade, procurando desenvolver um modelo de negócio escalável e que seja repetível. Diante disso a necessidade de desenvolver políticas públicas estaduais que possam dar apoio e segurança às startups Paranaenses, principalmente em sua fase inicial de constituição e na fase de consolidação de suas atividades.
+                <p class="justificar flow-text tipografia" id="capitular"> Startup é o ato de começar algo, normalmente relacionado ao empreendedorismo tecnológico. As startups são empresas que estão no início de suas atividades e buscam explorar atividades inovadoras no mercado. São empresas jovens, que buscam a inovação em qualquer área ou ramo de atividade, procurando desenvolver um modelo de negócio escalável e que seja repetível. Diante disso a necessidade de desenvolver políticas públicas estaduais que possam dar apoio e segurança às startups Paranaenses, principalmente em sua fase inicial de constituição e na fase de consolidação de suas atividades.
                     <small><br>Viabilizado por: Brunna Beatriz, Leticia Caroline, Vitoria Batista, Thayná dos Santos, Ana Paula Silva</small>
                 </p>
 
-                <div class="card-panel">
-                    <span class="flow-text">Caso queira baixar o PDF</span>
-                     <a class="btn-floating btn-large waves-effect waves-light red right"><i class="material-icons"><i class="material-icons">file_download</i></i></a>
-                    
-                    <a href="../imgs/cards/oleo-card.png" download>teste</a> 
+                <div class="card-panel col s12 m6 right">
+                    <h4>Baixar o PDF
+
+                        <a class="btn-floating btn-large waves-effect waves-light red right" href="../projetos_lei/pdfs/PROJETO_DE_LEI_337_2016.pdf" download><i class="material-icons"><i class="material-icons">file_download</i></i></a>
+                        
+                    </h4>
+                    <div id="espace"></div>
                 </div>
             </div>
         </div>
@@ -64,7 +69,7 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <p><a href="index.php"></a><img src="../imgs/footer-logo.png"></p>
+                    <p><a href="../index.php"><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Compartilhe</h5>
@@ -87,7 +92,6 @@
         .parallax-container {
             height: 400px;
         }
-
     </style>
 
 

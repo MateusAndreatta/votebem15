@@ -35,7 +35,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 flow-text">Reutilização do óleo<i class="material-icons right">more_vert</i></span>
-                            <p><a href="projetoReutilizacaoOleo.php">Clique aqui para acessar</a></p>
+                            <p><a href="projetoReutilizacaoOleo.php">Clique para acessar Reutilização do Óleo</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de Lei 486_2016<i class="material-icons right">close</i></span>
@@ -50,7 +50,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 flow-text">QR Code<i class="material-icons right">more_vert</i></span>
-                            <p><a href="projetoQrcode.php">Clique aqui para acessar</a></p>
+                            <p><a href="projetoQrcode.php">Clique para acessar QR Code</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº: 409/2016<i class="material-icons right">close</i></span>
@@ -65,7 +65,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 flow-text">Startup<i class="material-icons right">more_vert</i></span>
-                            <p><a href="projetoStartup.php">Clique aqui para acessar</a></p>
+                            <p><a href="projetoStartup.php">Clique para acessar Startup</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº: 337/2016<i class="material-icons right">close</i></span>
@@ -80,7 +80,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 flow-text">Energia Renovável<i class="material-icons right">more_vert</i></span>
-                            <p><a href="projetoEnergiaRenovavel.php">Clique aqui para acessar</a></p>
+                            <p><a href="projetoEnergiaRenovavel.php">Clique para acessar Energia Renovável</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº: 942/2015<i class="material-icons right">close</i></span>
@@ -95,7 +95,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 flow-text">Plantio de árvore nativa<i class="material-icons right">more_vert</i></span>
-                            <p><a href="projetoIpe.php">Clique aqui para acessar</a></p>
+                            <p><a href="projetoIpe.php">Clique para acessar Plantio de Árvore</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº: 333/2016<i class="material-icons right">close</i></span>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 flow-text">ICMS<i class="material-icons right">more_vert</i></span>
-                            <p><a href="projetoIcms.php">Clique aqui para acessar</a></p>
+                            <p><a href="projetoIcms.php">Clique para acessar ICMS</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº 697/2015<i class="material-icons right">close</i></span>
@@ -128,7 +128,7 @@
             <div class="row">
                 <div class="col l6 s12">
                     <p>
-                        <a href="index.php"></a><img src="../imgs/footer-logo.png">
+                        <p><a href="../index.php"><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
                     </p>
                 </div>
                 <div class="col l4 offset-l2 s12">

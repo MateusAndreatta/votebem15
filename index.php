@@ -19,11 +19,11 @@
 						<!--inicio do card QUIZ-->
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="imgs/cards/Quiz.jpg">
+                                    <img class="activator" src="imgs/cards/Quiz.jpg" title="Quiz" Alt="Quiz">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title activator grey-text text-darken-4">Quiz<i class="material-icons right">more_vert</i></span>
-                                    <p><a href="quiz/quiz_perguntas.php">Clique aqui para acessar</a></p>
+                                    <p><a href="quiz/quiz_perguntas.php">Clique para acessar o Quiz</a></p>
                                 </div>
                                 <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">Quiz<i class="material-icons right">close</i></span>
@@ -32,11 +32,11 @@
                             </div>
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="imgs/cards/projetos.jpg">
+                                    <img class="activator" src="imgs/cards/projetos.jpg" title="Projetos de Lei">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title activator grey-text text-darken-4">Projetos de Lei<i class="material-icons right">more_vert</i></span>
-                                    <p><a href="projetos_lei/projetos-de-lei.php">Clique aqui para acessar</a></p>
+                                    <p><a href="projetos_lei/projetos-de-lei.php">Clique para acessar os projetos de lei</a></p>
                                 </div>
                                 <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">Projetos de Lei<i class="material-icons right">close</i></span>
@@ -45,24 +45,24 @@
                             </div>
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
-								<img class="activator" src="imgs/cards/saibamais.jpg">
+								<img class="activator" src="imgs/cards/saibamais.jpg" title="Saiba mais">
 							</div>
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4">Saiba +<i class="material-icons right">more_vert</i></span>
-								<p><a href="saibamais/saiba.php">Clique aqui para acessar</a></p>
+								<p><a href="saibamais/saiba.php">Clique para acessar o saiba mais</a></p>
 							</div>
 							<div class="card-reveal">
 								<span class="card-title grey-text text-darken-4">Saiba +<i class="material-icons right">close</i></span>
-								<p class="left-align flow-text">Aqui voce pode encontar mais sobre assustos sobre politíca, partidos, candidatos e sobre eventos e muito mais.</p>
+								<p class="left-align flow-text">Aqui voce pode encontar mais sobre assuntos sobre politíca, partidos, candidatos e sobre eventos e muito mais.</p>
 							</div>
 						</div>
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
-								<img class="activator" src="imgs/cards/Jornal.jpg">
+								<img class="activator" src="imgs/cards/Jornal.jpg" title="Notícias">
 							</div>
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4">Notícias<i class="material-icons right">more_vert</i></span>
-								<p><a href="noticias.php">Clique aqui para acessar</a></p>
+								<p><a href="noticias.php">Clique para acessar as notícias</a></p>
 							</div>
 							<div class="card-reveal">
 								<span class="card-title grey-text text-darken-4">Notícias<i class="material-icons right">close</i></span>
@@ -71,25 +71,25 @@
 						</div>
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
-								<img class="activator" src="imgs/cards/agenda.jpg">
+								<img class="activator" src="imgs/cards/agenda.png" title="Agenda de eventos">
 							</div>
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4">Eventos<i class="material-icons right">more_vert</i></span>
-								<p><a href="agenda.php">Clique aqui para acessar</a></p>
+								<p><a href="agenda.php">Clique para acessar a agenda</a></p>
 							</div>
 							<div class="card-reveal">
-								<span class="card-title grey-text text-darken-4">Fórum<i class="material-icons right">close</i></span>
-								<p class="left-align flow-text">Debata sobre determinados assuntos e saiba mais sobre a opinião dos outros para determinados assuntos.</p>
+								<span class="card-title grey-text text-darken-4">Agenda de eventos<i class="material-icons right">close</i></span>
+								<p class="left-align flow-text">Fique por dentro de todos os eventos relacionandos a política. </p>
 							</div>
 						</div>
 						<!--inicio do card-->
 							<div class="card">
 								<div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" src="imgs/cards/candidatos.jpg">
+									<img class="activator" src="imgs/cards/candidatos.jpg" title="Candidatos e partidos">
 								</div>
 								<div class="card-content">
 									<span class="card-title activator grey-text text-darken-4">Candidatos e Partidos<i class="material-icons right">more_vert</i></span>
-									<p><a href="index_cand_part.php">Clique aqui para acessar</a></p>
+									<p><a href="index_cand_part.php">Clique para acessar candidatos e partidos</a></p>
 								</div>
 								<div class="card-reveal">
 									<span class="card-title grey-text text-darken-4">Candidatos e Partidos<i class="material-icons right">close</i></span>
@@ -105,7 +105,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><a href="index.php"></a><img src="imgs/footer-logo.png"></p>
+						<p><a href="index.php"><img src="imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

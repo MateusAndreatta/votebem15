@@ -18,7 +18,7 @@
                 <div class="col s12">
                   <a href="../index.php" class="breadcrumb">Home</a>
                   <a href="projetos-de-lei.php" class="breadcrumb">Projetos de lei</a>
-                  <a href="projetoReutilizacaoOleo.html" class="breadcrumb">Reutilização de óleo</a>
+                  <a href="projetoReutilizacaoOleo.php" class="breadcrumb">Reutilização de óleo</a>
                 </div>
               </div>
             </nav>
@@ -34,7 +34,7 @@
 			<div class="container">	
 			
 				<p class="justificar flow-text tipografia" id="capitular"> Descarte correto e reutilização do óleo de cozinha 
-				usado. O nosso projeto baseia se na Logística reversa, ou seja, no fato de reverter da melhor forma e reciclar
+				usado. O nosso projeto baseia-se na Logística reversa, ou seja, no fato de reverter da melhor forma e reciclar
 				produtos reaproveitáveis visando a melhora do meio ambiente. Através de parcerias com indústrias, faculdades e
 				com o apoio do governo fazer com que um produto que é descartado de uma forma errada e que traz malefícios traga
 				benefícios para o meio ambiente e para as indústrias. A nossa proposta é de transformação e reciclagem do óleo
@@ -47,6 +47,16 @@
                 <small><br>Viabilizado por: Ana Elize de Oliveira Martinez, Marianna Calesco, Julio Cesar Alves Bodanazi</small>
                 </p>
 				
+                
+                <div class="card-panel col s12 m6 right">
+                    <h4>Baixar o PDF
+
+                        <a class="btn-floating btn-large waves-effect waves-light red right" href="../projetos_lei/pdfs/PROJETO_DE_LEI_486_2016.pdf" download><i class="material-icons"><i class="material-icons">file_download</i></i></a>
+                        
+                    </h4>
+                    <div id="espace"></div>
+                </div>
+                
 			</div>
 
 		</main>
@@ -54,7 +64,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><a href="index.php"></a><img src="../imgs/footer-logo.png"></p>
+						<p><a href="../index.php"><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

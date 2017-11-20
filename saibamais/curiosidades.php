@@ -34,7 +34,7 @@
 					</div><br>
 					<div class="flow-text"><!--inicio saiba+ -->
 						<h4 class="center">Presidente com mais votos da história:</h4>			
-						<p class="justificar">Se formos tomar em conta o mundo inteiro, o presidente que mais recebeu votos na história do globo terrestre foi o estadunidense Ronald Reagan que recebeu 54.455.075 votos e assim se tornou o presidente dos Estados Unidos no ano de 1984 (em plena guerra-fria).</p>
+						<p class="justificar">Se formos tomar em conta o mundo inteiro, o presidente que mais recebeu votos na história do globo terrestre foi o estadunidense Ronald Reagan que recebeu 54.455.075 votos e assim se tornou o presidente dos Estados Unidos no ano de 1984 (em plena Guerra Fria).</p>
 						<p class="justificar">Pensando nas terras tupiniquins, o presidente com maior número de votos foi o Luiz Inácio Lula da Silva que no ano de 2002 recebeu 52.793.364 votos e assim se tornou presidente do Brasil pelo Partido dos Trabalhadores.</p>
 					</div><br>
 					<div class="flow-text"><!--inicio saiba+ -->
@@ -51,7 +51,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><a href="index.php"></a><img src="../imgs/footer-logo.png"></p>
+						<p><a href="../index.php"><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

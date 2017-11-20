@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<title>Vote Bem - Candidatos</title>
-		<link rel="icon" href="../imgs/favicon.ico">
+		<link rel="icon" href="imgs/favicon.ico">
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -69,7 +69,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><img src="imgs/footer-logo.png"></p>
+						<p><a href="index.php"><img src="imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>

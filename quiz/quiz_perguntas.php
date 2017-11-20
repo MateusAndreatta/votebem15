@@ -10,11 +10,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
 	<?php
-		$sql = "SELECT * FROM tb_quiz";
-		include "../PaginasProcessamento/conexao.php";
-		$vb = $banco -> prepare($sql);
-		$vb -> execute();
-        $cont = 0;
+	session_start();
+	$_SESSION['questao'] = 1;
 	?>
     <style>
         .botaoresposta{
@@ -44,61 +41,46 @@
 				</div>
 			</nav>	
 			<div class='container'>
-				<h1 class='center'>Quiz</h1>
-			<?php
-				foreach($vb as $quiz){
-					$id             = $quiz['id_questao'];
-					$pergunta       = $quiz["pergunta"];
-					$resposta1      = $quiz["resposta1"];
-					$resposta2      = $quiz["resposta2"];
-					$resposta3      = $quiz["resposta3"];
-					$resposta4      = $quiz["resposta4"];
-					$img            = $quiz['img'];
-					$correta        = $quiz['respostaCorreta'];
-					$cont ++;
-                    
-                    echo "
-                    
-                <div class='row'>
-                    <div class='col s10 offset-s2'>
-                        <div class='card-panel col s12 center' id='containerCard'>
-                            <div class='row center'>
-                                <h1 class='flow-text perguntatxt'>$cont - $pergunta</h1>
-                            </div> 
-                            <div class='row center'>
-                                <img class='img responsive-img'src='../imgs/quiz/$img'>
-                            </div> 
-                            <div class='row'>
-                                <div class='center col s12'>
-                                    <div class='input-field col s6'>
-                                        <a class='waves-effect waves-light btn botaoresposta'>$resposta1</a>
-                                    </div>
-                                    <div class='input-field col s6'>
-                                      <a class='waves-effect waves-light btn botaoresposta'>$resposta2</a>
-                                    </div>
-                                    <div class='input-field col s6'>
-                                      <a class='waves-effect waves-light btn botaoresposta'>$resposta3</a>
-                                    </div>
-                                    <div class='input-field col s6'>
-                                      <a class='waves-effect waves-light btn botaoresposta'>$resposta4</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    
-                    ";
-				}
-			?>
-
-                
-			<h5>Para conferir o resultado, clique no botão abaixo!</h5><br>
-			<div class="col s12 center">
-				<button class="btn waves-effect waves-light blue" type="submit" name="action">Conferir
-					<i class="material-icons right">send</i>
-				</button>
-			</div>
+				<h1 class='center'>Quiz</h1>   
+                <form method="POST" action="quiz_perguntas2.php">
+					<div class='row'>
+						<div class='col s10 offset-s2'>
+							<div class='card-panel col s12 center' id='containerCard'>
+								<div class='row center'>
+									<h1 class='flow-text perguntatxt'>1 - Quantos anos dura um mandato de um presidente?</h1>
+								</div> 
+								<div class='row center'>
+									<img class='img responsive-img'src='../imgs/quiz/5a0a2db1ab4ef.png'>
+								</div> 
+								<div class='row'>
+									<input type="hidden" name="gab1" value="2">
+									<p>
+									  <input name="group1" type="radio" required value='1' id="test1" />
+									  <label for="test1">8 anos</label>
+									</p>
+									<p>
+									  <input name="group1" type="radio" required value="2" id="test2" />
+									  <label for="test2">4 anos</label>
+									</p>
+									<p>
+									  <input name="group1" type="radio" required value="3" id="test3" />
+									  <label for="test3">2 anos</label>
+									</p>
+									<p>
+									  <input name="group1" type="radio" required value="4" id="test4" />
+									  <label for="test4">1 ano</label>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>   
+				<div class="col s12 center">
+					<button class="btn waves-effect waves-light blue" type="submit" name="action">Próxima pergunta
+						<i class="material-icons right">send</i>
+					</button>
+				</div>
+				</form>
 			</div><br>
 				<!-- FIM DOS BLOCOS -->		
 		</main>
@@ -106,7 +88,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<p><img src="../imgs/footer-logo.png"></p>
+						<p><a href="../index.php"><img src="../imgs/footer-logo.png" alt="Logo do Vote bem"></a></p>
 					</div>
 					<div class="col l4 offset-l2 s12">
 						<h5 class="white-text">Compartilhe</h5>
