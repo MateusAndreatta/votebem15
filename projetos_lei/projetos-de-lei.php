@@ -19,7 +19,7 @@
             <div class="nav-wrapper blue espacamento-lateral">
                 <div class="col s12">
                     <a href="../index.php" class="breadcrumb">Home</a>
-                    <a href="projetos-de-lei.html" class="breadcrumb">Projetos de lei</a>
+                    <a href="#" class="breadcrumb">Projetos de lei</a>
                 </div>
             </div>
         </nav>
@@ -38,8 +38,8 @@
                             <p><a href="projetoReutilizacaoOleo.php">Clique aqui para acessar</a></p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Reutilização do óleo de cozinha<i class="material-icons right">close</i></span>
-                            <p class="justificar">Armazenagem correta do óleo usado em empresas do ramo alimentício , coleta seletiva através da usina de biodiesel móvel ,e parceria com o município para coleta do óleo utilizado pela população. Descarte da forma correta para reaproveitamento e reutilização do óleo.</p>
+                            <span class="card-title grey-text text-darken-4">Projeto de Lei 486_2016<i class="material-icons right">close</i></span>
+                            <p class="left-align">Dispõe sobre medidas e reciclagem de óleos de origem vegetal e animal de uso culinário e seus residuais, em todo o estado do paraná.</p>
                         </div>
                     </div>
                     <!--inicio do card projeto de lei QR CODE-->
@@ -54,7 +54,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº: 409/2016<i class="material-icons right">close</i></span>
-                            <p>Dispõe sobre a política de estímulo e incentivo a inserção de qr code nas embalagens de todos os produtos comercializados no estado do paraná.</p>
+                            <p class="left-align">Dispõe sobre a política de estímulo e incentivo a inserção de qr code nas embalagens de todos os produtos comercializados no estado do paraná.</p>
                         </div>
                     </div>
                     <!--inicio do card projeto de lei STARTUP-->
@@ -69,14 +69,14 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº: 337/2016<i class="material-icons right">close</i></span>
-                            <p>Dispõe sobre a política de estímulo, incentivo e promoção ao desenvolvimento local de startups e indústrias tecnológicas, no estado do paraná e dá outras providências.</p>
+                            <p class="left-align">Dispõe sobre a política de estímulo, incentivo e promoção ao desenvolvimento local de startups e indústrias tecnológicas, no estado do paraná e dá outras providências.</p>
                         </div>
                     </div>
                     <!--inicio do card projeto de lei ENERGIA RENOVAVEL-->
 
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="../imgs/cards/energia.png">
+                            <img class="activator" src="../imgs/cards/energia1.jpg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 flow-text">Energia Renovável<i class="material-icons right">more_vert</i></span>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº: 942/2015<i class="material-icons right">close</i></span>
-                            <p>Dispõe sobre a obrigatoriedade de indústrias situadas no estado do paraná a instalarem equipamentos de energia solar, térmica e/ou eólica.</p>
+                            <p class="left-align">Dispõe sobre a obrigatoriedade de indústrias situadas no estado do paraná a instalarem equipamentos de energia solar, térmica e/ou eólica.</p>
                         </div>
                     </div>
                     <!--inicio do card projeto de lei Ipê Amarelo -->
@@ -99,7 +99,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº: 333/2016<i class="material-icons right">close</i></span>
-                            <p>Estabelece a obrigatoriedade de plantio de uma árvore nativa do paraná nos terrenos que especifica e dá outras providências.</p>
+                            <p class="left-align">Estabelece a obrigatoriedade de plantio de uma árvore nativa do paraná nos terrenos que especifica e dá outras providências.</p>
                         </div>
                     </div>
                     <!--inicio do card projeto de lei grafico-->
@@ -114,7 +114,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projeto de lei Nº 697/2015<i class="material-icons right">close</i></span>
-                            <p>Altera dispositivos da lei nº 15.562, de 7 de julho de 2007, que dispõe sobre o tratamento diferenciado e favorecido a ser dispensado às microempresas e empresas de pequeno porte, no estado do paraná, alterando para r$ 900.000,00 (novecentos mil reais) o parâmetro de isenção do ICMS a ser observado pelas empresas optantes pelo simples nacional.</p>
+                            <p class="left-align">Altera dispositivos da lei nº 15.562, de 7 de julho de 2007, que dispõe sobre o tratamento diferenciado e favorecido a ser dispensado às microempresas e empresas de pequeno porte, no estado do paraná, alterando para r$ 900.000,00 (novecentos mil reais) o parâmetro de isenção do ICMS a ser observado pelas empresas optantes pelo simples nacional.</p>
                         </div>
                     </div>
                     

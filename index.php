@@ -27,7 +27,7 @@
                                 </div>
                                 <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">Quiz<i class="material-icons right">close</i></span>
-                                    <p>Venha testar seu conhecimento sobre politíca e ver se voce realmente sabe sobre o assunto.</p>
+                                    <p class="left-align flow-text">Venha testar seu conhecimento sobre politíca e ver se voce realmente sabe sobre o assunto.</p>
                                 </div> 
                             </div>
                             <div class="card">
@@ -40,7 +40,7 @@
                                 </div>
                                 <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">Projetos de Lei<i class="material-icons right">close</i></span>
-                                    <p>Voce sabe como funciona um projeto de lei? E como é feito? Descubra isso agora! </p>
+                                    <p class="left-align flow-text">Voce sabe como funciona um projeto de lei? E como é feito? Descubra isso agora! </p>
                                 </div>
                             </div>
 						<div class="card">
@@ -53,7 +53,7 @@
 							</div>
 							<div class="card-reveal">
 								<span class="card-title grey-text text-darken-4">Saiba +<i class="material-icons right">close</i></span>
-								<p>Aqui voce pode encontar mais sobre assustos sobre politíca, partidos, candidatos e sobre eventos e muito mais.</p>
+								<p class="left-align flow-text">Aqui voce pode encontar mais sobre assustos sobre politíca, partidos, candidatos e sobre eventos e muito mais.</p>
 							</div>
 						</div>
 						<div class="card">
@@ -66,20 +66,20 @@
 							</div>
 							<div class="card-reveal">
 								<span class="card-title grey-text text-darken-4">Notícias<i class="material-icons right">close</i></span>
-								<p>Fique por dentro do que acontece com o mundo politico e sobre todas as ações realizadas nesse meio. </p>
+								<p class="left-align flow-text">Fique por dentro do que acontece com o mundo politico e sobre todas as ações realizadas nesse meio. </p>
 							</div>
 						</div>
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
-								<img class="activator" src="imgs/cards/forum.jpg">
+								<img class="activator" src="imgs/cards/agenda.jpg">
 							</div>
 							<div class="card-content">
-								<span class="card-title activator grey-text text-darken-4">Fórum<i class="material-icons right">more_vert</i></span>
-								<p><a href="forum.php">Clique aqui para acessar</a></p>
+								<span class="card-title activator grey-text text-darken-4">Eventos<i class="material-icons right">more_vert</i></span>
+								<p><a href="agenda.php">Clique aqui para acessar</a></p>
 							</div>
 							<div class="card-reveal">
 								<span class="card-title grey-text text-darken-4">Fórum<i class="material-icons right">close</i></span>
-								<p>Debata sobre determinados assuntos e saiba mais sobre a opinião dos outros para determinados assuntos.</p>
+								<p class="left-align flow-text">Debata sobre determinados assuntos e saiba mais sobre a opinião dos outros para determinados assuntos.</p>
 							</div>
 						</div>
 						<!--inicio do card-->
@@ -93,7 +93,7 @@
 								</div>
 								<div class="card-reveal">
 									<span class="card-title grey-text text-darken-4">Candidatos e Partidos<i class="material-icons right">close</i></span>
-									<p>Saiba mais sobre como os partidos e candidatos funcionam e como eles podem influenciar no seu voto.</p>
+									<p class="left-align flow-text">Saiba mais sobre como os partidos e candidatos funcionam e como eles podem influenciar no seu voto.</p>
 								</div>
 							</div>
 						</div>

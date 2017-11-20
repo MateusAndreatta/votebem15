@@ -26,7 +26,7 @@
             <div class="parallax-container">
                 <h1 class="center text-banners white-text">ICMS</h1>
                 <div class="parallax">
-                    <img src="../imgs/banners/oleo-banner.png"/>
+                    <img src="../imgs/banners/icms-banner.jpg"/>
                 </div>
             </div>
             
@@ -35,7 +35,7 @@
 			
 				<p class="justificar flow-text tipografia" id="capitular"> Em virtude da crise vivenciada atualmente, o aumento do enquadramento de isenção do ICMS para as micros e pequenas empresas será de suma importância para o desenvolvimento mercantil, consequentemente, haverá o aprimoramento dos maquinários, ou seja, investimento em tecnologia, diversficação de produtos, maior oferta de empregos e o crescimento na circulação para o comércio e  indústria.
 Sendo o Estado um agente direto neste cenário, possibilitando um aumento na arrecadação através deste benefício, pois havendo maior circulação da moeda no mercado consequentemente um aumento na arrecadação.
-                <small><br>Ana Maria Santiago da Silva, Bruna Luzia Souza Zamaro, Nicoli Caroline Perez, Valéria de Vargas Moraes</small>
+                <small><br>Viabilizado por: Ana Maria Santiago da Silva, Bruna Luzia Souza Zamaro, Nicoli Caroline Perez, Valéria de Vargas Moraes</small>
                 </p>
 				
 			</div>

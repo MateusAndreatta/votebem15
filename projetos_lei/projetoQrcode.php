@@ -26,7 +26,7 @@
             <div class="parallax-container">
                 <h1 class="center text-banners white-text">QR Code</h1>
                 <div class="parallax">
-                    <img src="../imgs/banners/oleo-banner.png"/>
+                    <img src="../imgs/banners/qrcode-banner.png"/>
                 </div>
             </div>
             
@@ -34,7 +34,7 @@
 			<div class="container">	
 			
 				<p class="justificar flow-text tipografia" id="capitular"> A garantia aos consumidores através de mais um meio de acesso às informações já contida nas embalagens de uma forma mais abrangente e detalhada, bem como dar acessibilidade aos consumidores com deficiência visual através da sinalização do código por leitura tátil (BRAILLE) o qual não dependerá de outras pessoas para ajudar nas compras, pois, por meio de um aplicativo específico, as informações também poderão ser fornecidas através de áudio, aumentando o consumo deste público em mercados, além de fomentar o comercio regional, a economia local bem como tutelar o meio ambiente, além de dispor informações relativamente importantes ao consumidor, divulgar promoções, novos produtos e outras técnicas de marketing, auxiliando em suas atividades
-                <small><br>Amanda Luiza Kanarski, Camila de Pádua D. Desidélio,
+                <small><br>Viabilizado por: Amanda Luiza Kanarski, Camila de Pádua D. Desidélio,
 Jéssica Camila Mysczak, Mariana Terencio</small>
                 </p>
 				

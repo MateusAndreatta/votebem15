@@ -26,7 +26,7 @@
             <div class="parallax-container">
                 <h1 class="center text-banners white-text">Replantio de árvore nativa</h1>
                 <div class="parallax">
-                    <img src="../imgs/banners/oleo-banner.png"/>
+                    <img src="../imgs/banners/ipe-banner.jpg"/>
                 </div>
             </div>
             
