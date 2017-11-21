@@ -47,7 +47,11 @@
 			$conterrado++;
 		}
 		
-		echo "<script>alert('Você acertou $contcerto/3');</script>";
+		echo "<script>
+			alert('Você acertou $contcerto/3');
+			window.location.href = '../index.php'
+		</script>";
+		
 		
 	?>
  
