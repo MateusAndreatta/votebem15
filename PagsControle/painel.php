@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @VoteBem
+ Sign out
+ Watch 0
+  Star 0  Fork 0 MateusAndreatta/votebem15
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+Branch: master Find file Copy pathvotebem15/PagsControle/painel.php
+f571282  2 hours ago
+@MateusAndreatta MateusAndreatta alteracoes 20_11
+1 contributor
+RawBlameHistory     
+134 lines (132 sloc)  4.07 KB
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -86,16 +104,6 @@
 							</div>
 							<div class="card-action center">
 								<a href="menu_eventos.php" class="blue-text">Eventos</a>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card">
-							<div class="card-image">
-								<img src="../imgs/painel/quiz.png" class="responsive-img">
-							</div>
-							<div class="card-action center">
-								<a href="menu_quiz.php" class="blue-text">Quiz</a>
 							</div>
 						</div>
 					</div>
