@@ -54,7 +54,7 @@
                                 <div id='$modalid' class='modal modal-fixed-footer'>
                                     <div class='modal-content'>
                                         <h4>$titulo</h4>
-                                        <p>$texto</p>
+                                        <p class='left-align'>$texto</p>
                                     </div>
                                     <div class='modal-footer'>
                                         <a href='#!' class='modal-action modal-close waves-effect waves-blue btn-flat'>Sair</a>
