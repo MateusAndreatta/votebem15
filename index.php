@@ -75,7 +75,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Quiz<i class="material-icons right">close</i></span>
-                            <p class="left-align flow-text">Venha testar seu conhecimento sobre politíca e ver se voce realmente sabe sobre o assunto.</p>
+                            <p class="left-align flow-text">Venha testar seus conhecimentos sobre a área política e constatar seu nivel de conhecimento sobre o assunto.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -88,7 +88,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Projetos de Lei<i class="material-icons right">close</i></span>
-                            <p class="left-align flow-text">Voce sabe como funciona um projeto de lei? E como é feito? Descubra isso agora! </p>
+                            <p class="left-align flow-text">Você sabe como se cria um projeto de lei? Entende como ele funciona? Confira tudo isso agora mesmo! </p>
                         </div>
                     </div>
                     <div class="card">
@@ -101,7 +101,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Saiba +<i class="material-icons right">close</i></span>
-                            <p class="left-align flow-text">Aqui voce pode encontar mais sobre assuntos sobre politíca, partidos, candidatos e sobre eventos e muito mais.</p>
+                            <p class="left-align flow-text">Aqui você ira encontrar mais sobre questões políticas,partidárias,candidatais e também ficará por dentro dos próximos eventos governamentais.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -114,7 +114,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Notícias<i class="material-icons right">close</i></span>
-                            <p class="left-align flow-text">Fique por dentro do que acontece com o mundo politico e sobre todas as ações realizadas nesse meio. </p>
+                            <p class="left-align flow-text">Fique por dentro do que acontece com o mundo político e sobre todas as ações realizadas nesse meio.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -141,7 +141,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Candidatos e Partidos<i class="material-icons right">close</i></span>
-                            <p class="left-align flow-text">Saiba mais sobre como os partidos e candidatos funcionam e como eles podem influenciar no seu voto.</p>
+                            <p class="left-align flow-text">Conheça e analise os candidatos e partidos que participam das eleições, como funcionam e como isso pode influenciar seu voto.</p>
                         </div>
                     </div>
                 </div>
