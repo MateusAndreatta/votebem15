@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
         <link type="text/css" rel="stylesheet" href="css/estilo.css" media="screen,projection" />
+        <link type="text/css" rel="stylesheet" href="css/cards.css" media="screen,projection" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
 <?PHP
@@ -32,6 +33,7 @@
                 
         <div class="container">
             <div class="row">
+                <div class="cards-container center">
             <?php
             foreach($vb as $noticias){
                 $id               = $noticias['id_noticia'];
@@ -44,7 +46,6 @@
                 $modalid          = "modal".$id;
                 
                 echo   "
-                            <div class='col s12 m6 l4'>
                               <div class='card'>
                                 <div class='card-image'>
                                   <img src='imgs/noticias/$img'>
@@ -63,12 +64,12 @@
                                     <span class='card-title'>$titulo</span>
                                   <p>$resumo</p>
                                 </div>
-                              </div>
-                        </div>";
+                              </div>";
                 
             }
                 
             ?>
+                </div>
             </div>
         </div>
         
