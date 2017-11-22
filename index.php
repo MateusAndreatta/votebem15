@@ -50,7 +50,7 @@
             <img src="imgs/footer-logo.png" class="right espaco" alt="logo votebem" title="Logo Vote Bem"><br>
             <h2 class="posicionamento white-text">Em busca de um país melhor,<br> o primeiro passo é Votar Bem</h2>
             <div class="parallax">
-                <img src="imgs/index-banner.jpg"/>
+                <img src="imgs/banners/indexteste.jpg"/>
             </div>
         </div>
         

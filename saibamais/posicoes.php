@@ -22,13 +22,13 @@
 					</div>
 				</nav>				
 			<div class="center">
-				<h1>Posições Politícas</h2>
+				<h1>Posições Politícas</h1>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="flow-text"><br><!--inicio saiba+ -->
 						<h4 class="center">Lados ideológicos da política.</h4>			
-							<p class="justificar">De uns anos para cá a política virou algo parecido com o futebol, se eu tenho um lado político diferente de outro indivíduo eu tenho a necessidade de brigar com ele, como o movimento do Vote Bem é apartidário, nós vamos mostrar os dois lados da moeda e assim ajudar você a escolher sua posição política.
+							<p class="justificar" id="capitular">De uns anos para cá a política virou algo parecido com o futebol, se eu tenho um lado político diferente de outro indivíduo eu tenho a necessidade de brigar com ele, como o movimento do Vote Bem é apartidário, nós vamos mostrar os dois lados da moeda e assim ajudar você a escolher sua posição política.
 								Segundo pesquisas 50% da população brasileira não sabe qual é sua posição política e muito menos sabem o que a “direita” e “esquerda” defendem, para começarmos a ter uma noção melhor temos que ir na origem desses termos. Esses termos começaram a ser usados na França do século 18, e se iniciou quando os burgueses franceses não concordaram com a participação dos mais pobres na Assembleia Nacional Constituinte e assim em forma de protesto eles se sentaram ao lado direito, e as pessoas que defendiam a participação das pobre e trabalhadores se sentaram à esquerda.
 							</p>
 						<h4>Esquerda:</h4>
