@@ -94,13 +94,14 @@
 							</div>
 						</div>
 					</div>
-			</div>   
+			
 				<div class="col s12 center">
 					<button class="btn waves-effect waves-light blue" type="submit" name="action">Finalizar
 						<i class="material-icons right">send</i>
 					</button>
 				</div>
 				</form>
+                
 			</div><br>
 				<!-- FIM DOS BLOCOS -->		
 		</main>

@@ -8,10 +8,14 @@
 		<link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
 		<link rel="stylesheet" href="../css/estilo.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="../js/materialize.min.js"></script>
+		<script type="text/javascript" src="../js/custom.js"></script>
 	</head>
 	<?php
-	session_start();
-	$_SESSION['questao'] = 1;
+       
+        session_start();
+        $_SESSION['questao'] = 1;
 	?>
     <style>
         .botaoresposta{
@@ -29,6 +33,9 @@
             }
         }
     </style>
+    
+
+    
 	<body>
 		<main>
 			<?php include "../PaginasProcessamento/nav2.php"; ?>
@@ -74,15 +81,60 @@
 							</div>
 						</div>
 					</div>
-			</div>   
+			  
 				<div class="col s12 center">
 					<button class="btn waves-effect waves-light blue" type="submit" name="action">Próxima pergunta
 						<i class="material-icons right">send</i>
 					</button>
 				</div>
 				</form>
+                
+                
+                
 			</div><br>
 				<!-- FIM DOS BLOCOS -->		
+            <!-- APARECER RESULTADO -->		
+        <?PHP
+        if(isset($_GET['acertos'])){
+            $n= $_GET['acertos'];
+            if($n <= 2){
+                $titulo = "Precisa melhorar";
+                $conteudo = "Recomendamos que veja esses conteudos sobre política: <a href='../saibamais/saiba.php'>Saiba mais</a>";
+            }
+            if($n == 3){
+                $titulo = "Bom";
+                $conteudo = "Recomendamos que veja esses conteudos sobre política: <a href='../saibamais/saiba.php'>Saiba mais</a>";
+            }
+            if($n >= 4){
+                $titulo = "Parabéns";
+                $conteudo = "Caso queira saber mais sobre política: <a href='../saibamais/saiba.php'>Saiba mais</a>";
+            }
+            
+            
+            echo"
+              <div id='modal1' class='modal'>
+                <div class='modal-content'>
+                  <h4>$titulo</h4>
+                  <p>Você acertou $n de 5 questões</p>
+                  <p>$conteudo</p>
+                </div>
+                <div class='modal-footer'>
+                  <a href='../index.php' class='modal-action modal-close waves-effect waves-green btn-flat'>Voltar a página inicial</a>
+                </div>
+              </div>
+
+            <script>       
+              $(document).ready(function(){
+                $('#modal1').modal('open');
+              });
+            </script>
+            ";
+        }
+        
+        ?> 
+            
+
+            
 		</main>
 		<footer class="page-footer blue">
 			<div class="container">
@@ -106,7 +158,9 @@
 				</div>
 			</div>
 		</footer>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="../js/materialize.min.js"></script>
-		<script type="text/javascript" src="../js/custom.js"></script>
-	</body>
+        
+
+    
+    
+    </body>
+</html>

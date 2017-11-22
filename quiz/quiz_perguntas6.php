@@ -48,9 +48,13 @@
 			$conterrado++;
 		}
 		
-		echo "<script>
+		/*echo "<script>
 				alert('Você acertou $contcerto/5');
 				window.location.href = '../index.php';
 			
-			</script>";
+			</script>";*/
+
+header("Location: quiz_perguntas.php?acertos=$contcerto")
+        
+        
 ?>	

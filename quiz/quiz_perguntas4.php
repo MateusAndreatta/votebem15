@@ -91,8 +91,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
-			</div>   
+					</div> 
 				<div class="col s12 center">
 					<button class="btn waves-effect waves-light blue" type="submit" name="action">Próxima pergunta
 						<i class="material-icons right">send</i>

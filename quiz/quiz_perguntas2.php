@@ -87,8 +87,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
-			</div>   
+					</div>  
 				<div class="col s12 center">
 					<button class="btn waves-effect waves-light blue" type="submit" name="action">Próxima pergunta
 						<i class="material-icons right">send</i>
@@ -124,3 +123,4 @@
 		<script type="text/javascript" src="../js/materialize.min.js"></script>
 		<script type="text/javascript" src="../js/custom.js"></script>
 	</body>
+</html>
