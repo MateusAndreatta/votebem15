@@ -22,7 +22,7 @@
 					</div>
 				</nav>				
 			<div class="center">
-				<h1>Posições Politícas</h1>
+				<h1>Posições Políticas</h1>
 			</div>
 			<div class="container">
 				<div class="row">
