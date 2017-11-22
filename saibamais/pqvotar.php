@@ -22,14 +22,19 @@
 					</div>
 				</nav>				
 			<div class="center">
-				<h1>Por quê votar?</h1>
+				<h2>Por quê votar?</h2>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="flow-text"><br><!--inicio saiba+ -->
 						<h4 class="center">Você sabe como votar?</h4>			
-							<p class="justificar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada imperdiet nulla vitae ullamcorper. Vestibulum eu vulputate felis, sed feugiat dolor. Vivamus a libero et lacus pulvinar cursus et dignissim odio. Aliquam turpis orci, elementum in congue vitae, laoreet nec felis. Phasellus placerat facilisis leo vitae elementum. Proin sed convallis diam. Nunc laoreet mauris ornare, pharetra lacus sit amet, vulputate augue. Praesent vel nisl quam. Aenean orci augue, euismod vel turpis id, porttitor placerat ipsum. Nullam ultrices, sem interdum fringilla tempor, dui arcu dictum libero, eget posuere sem justo et lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus eget iaculis libero. Nam commodo risus quis ultricies vehicula. Praesent viverra, erat non tempor ornare, libero ligula euismod diam, sed scelerisque orci purus ut nibh. Etiam fermentum, nisi sed vestibulum scelerisque, libero lectus tempor massa, vitae faucibus orci neque a arcu.
-							Mauris id bibendum velit, nec facilisis tortor. Aliquam pharetra sem at lacus rhoncus rhoncus. Donec luctus metus nunc, eget ornare nisl sagittis sed. Donec euismod lectus enim, ac tempor ipsum imperdiet eget. Aenean ac ullamcorper dui, elementum facilisis mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla ut nulla malesuada pulvinar. Nunc eu turpis et urna varius sodales. Phasellus pharetra varius nibh, non iaculis eros pellentesque ut. Nam nec metus et metus malesuada euismod sed ac lorem.</p>
+							<p class="justificar" id="capitular">O voto é uma das maiores representações de cidadania que existem, pois é ele que faz com que o seu país melhore, e sabendo escolher os seus candidatos você muda o rumo da sua nação.
+								Na maior parte da história o povo não teve voz, principalmente quando pensamos nas monarquias europeias. Nessa época tivemos reis poderosos apenas defendo seus interesses e os interesses de seus aliados, e assim a plebe (pessoas comuns) não tinha voz.
+								Também podemos citar a “luta” das mulheres por direito ao voto. Elas tiveram que enfrentar diversas aversões de uma sociedade mais machista do que temos atualmente. 
+								E tenha certeza que se os plebeus da época das monarquias ou até mesmo as mulheres do inicio do século XX tivessem a oportunidade de escolher seus representantes, eles fariam de bom grado.
+								Então escolha seus candidatos com responsabilidade e nos dias de votação saia do seu sofá e vá votar, e escolha o seu representante. 
+								A escolha do representante é uma das partes mais importantes, pois vai ser ele quem vai representar suas ideias na câmara, senado, etc. E se você ainda tem dúvida nas suas posições políticas veja a página que fala sobre esse assunto. E não se esqueça: todo eleitor tem um lugar certo para votar, então se certifique qual é o seu local, sessão e sala de voto.
+							</p>
 					</div><br>
                 </div>
 			</div>

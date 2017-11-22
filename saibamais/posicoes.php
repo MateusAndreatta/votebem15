@@ -17,12 +17,12 @@
 						<div class="col s12">
 							<a href="../index.php" class="breadcrumb">Home</a>
 							<a href="saiba.php" class="breadcrumb">Saiba+</a>
-							<a href="posicoes.php" class="breadcrumb">Posições Politícas</a>
+							<a href="posicoes.php" class="breadcrumb">Posições Políticas</a>
 						</div>
 					</div>
 				</nav>				
 			<div class="center">
-				<h1>Posições Politícas</h1>
+				<h1>Posições Politícas</h2>
 			</div>
 			<div class="container">
 				<div class="row">
@@ -39,7 +39,7 @@
 								Estatização de empresas e de terras;<br>
 							</p>
 							<h4>Direita:</h4>
-							<p class="justificar">Partidos que se intitulam de direita tem ideias mais liberais (liberais são aqueles que defendem a não intervenção do estado na economia) economicamente e suas ideias são contrárias ao socialismo, a direita totalmente adepta ao capitalismo. Os países mais conhecidos são os Estados Unidos, Inglaterra, etc.</p>
+							<p class="justificar">Partidos que se intitulam de direita tem ideais mais liberais (liberais são aqueles que defendem a não intervenção do estado na economia) economicamente e suas ideias são contrárias ao socialismo, a direita totalmente adepta ao capitalismo. Os países mais conhecidos são os Estados Unidos, Inglaterra, etc.</p>
 						<h4>Características:</h4>
 							<p class="justificar">Existência de classes sociais;<br>
 								Economia se autorregula, sem intervenção do estado;<br>

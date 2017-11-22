@@ -22,7 +22,7 @@
 					</div>
 				</nav>			
 			<div class="center">
-				<h1>Curiosidades</h1>
+				<h2>Curiosidades</h2>
 			</div>
 			<div class="container">
 				<div class="row">

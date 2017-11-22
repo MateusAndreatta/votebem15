@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<title>Vote Bem - Cadastro de Candidato</title>
-		<link rel="icon" href="../imgs/favicon.ico">
+		<link rel="icon" href="imgs/favicon.ico">
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />

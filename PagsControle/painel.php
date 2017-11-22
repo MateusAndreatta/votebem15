@@ -38,18 +38,8 @@
 						<h2 class="center">Painel de Controle</h2>
 					</div>	
 				</div>
-				<div class="row">
-					<div class="col s12 m6 l4">
-						<div class="card">
-							<div class="card-image">
-								<img src="../imgs/painel/user.png">
-							</div>
-							<div class="card-action center">
-								<a href="#" class="blue-text">Usuários</a>
-							</div>
-						</div>
-					</div>				
-					<div class="col s12 m6 l4">
+				<div class="row">			
+					<div class="col s12 m3 l3">
 						<div class="card">
 							<div class="card-image">
 								<img src="../imgs/painel/noticias1.png" class="responsive-img">
@@ -59,7 +49,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col s12 m6 l4">
+					<div class="col s12 m3 l3">
 						<div class="card">
 							<div class="card-image">
 								<img src="../imgs/painel/handshake.png" class="responsive-img">
@@ -69,7 +59,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col s12 m6 l4">
+					<div class="col s12 m3 l3">
 						<div class="card">
 							<div class="card-image">
 								<img src="../imgs/painel/painel.png" class="responsive-img">
@@ -79,23 +69,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="col s12 m6 l4">
+					<div class="col s12 m3 l3">
 						<div class="card">
 							<div class="card-image">
 								<img src="../imgs/painel/agenda.png" class="responsive-img">
 							</div>
 							<div class="card-action center">
 								<a href="menu_eventos.php" class="blue-text">Eventos</a>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card">
-							<div class="card-image">
-								<img src="../imgs/painel/quiz.png" class="responsive-img">
-							</div>
-							<div class="card-action center">
-								<a href="menu_quiz.php" class="blue-text">Quiz</a>
 							</div>
 						</div>
 					</div>

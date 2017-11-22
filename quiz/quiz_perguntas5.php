@@ -11,15 +11,17 @@
 	</head>
 	<?php
 		$questao1 = $_POST['questao1'];
-		$questao2 = $_POST['group1'];
+		$questao2 = $_POST['questao2'];
+		$questao3 = $_POST['questao3'];
+		$questao4 = $_POST['group1'];
 		
 		session_start();
 		if(isset($_POST['action'])){
-			$_SESSION['questao'] = 3;
+			$_SESSION['questao'] = 5;
 		}
 
 		if(isset($_SESSION['questao'])){
-		if($_SESSION['questao'] == 3){
+		if($_SESSION['questao'] == 5){
 		}else{
 			header("Location: quiz_perguntas.php");
 		}
@@ -57,34 +59,36 @@
 			</nav>	
 			<div class='container'>
 				<h1 class='center'>Quiz</h1>   
-                <form method="POST" action="quiz_perguntas4.php">
+                <form method="POST" action="quiz_perguntas6.php">
 					<div class='row'>
 						<div class='col s12 offset-s0 m10 push-m1 pull-m1 offset-l2 l10'>
 							<div class='card-panel col s12 center' id='containerCard'>
 								<div class='row center'>
-									<h1 class='flow-text perguntatxt'>3 - Em que ano se iniciou a ditadura militar?</h1>
+									<h1 class='flow-text perguntatxt'>5 - Qual desses estados nunca teve um representante na presidência da república?</h1>
 								</div> 
 								<div class='row center'>
-									<img class='img responsive-img'src='../imgs/quiz/Pergunta 3.png'>
+									<img class='img responsive-img'src='../imgs/quiz/Pergunta 5.png'>
 								</div> 
 								<div class='row'>
 									<input type="hidden" name="questao1" value='<?php echo $questao1; ?>'>
 									<input type="hidden" name="questao2" value='<?php echo $questao2; ?>'>
+									<input type="hidden" name="questao3" value='<?php echo $questao3; ?>'>
+									<input type="hidden" name="questao4" value='<?php echo $questao4; ?>'>
 									<p>
 									  <input name="group1" type="radio" required value='1' id="test1" />
-									  <label for="test1">1964</label>
+									  <label for="test1">São Paulo</label>
 									</p>
 									<p>
 									  <input name="group1" type="radio" required value="2" id="test2" />
-									  <label for="test2">1956</label>
+									  <label for="test2">Maranhão</label>
 									</p>
 									<p>
 									  <input name="group1" type="radio" required value="3" id="test3" />
-									  <label for="test3">1839</label>
+									  <label for="test3">Paraná</label>
 									</p>
 									<p>
 									  <input name="group1" type="radio" required value="4" id="test4" />
-									  <label for="test4">1500</label>
+									  <label for="test4">Rio Grande do Sul</label>
 									</p>
 								</div>
 							</div>
@@ -92,7 +96,7 @@
 					</div>
 			</div>   
 				<div class="col s12 center">
-					<button class="btn waves-effect waves-light blue" type="submit" name="action">Próxima pergunta
+					<button class="btn waves-effect waves-light blue" type="submit" name="action">Finalizar
 						<i class="material-icons right">send</i>
 					</button>
 				</div>

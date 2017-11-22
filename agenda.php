@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<title>Vote Bem - Agenda de Eventos</title>
-		<link rel="icon" href="../imgs/favicon.ico">
+		<link rel="icon" href="imgs/favicon.ico">
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -40,7 +40,7 @@
 				<nav>
 					<div class="nav-wrapper blue espacamento-lateral">
 						<div class="col s12">
-							<a href="index.php" class="breadcrumb">Inicial</a>
+							<a href="index.php" class="breadcrumb">Home</a>
 							<a href="agenda.php" class="breadcrumb">Agenda</a>
 						</div>
 					</div>
@@ -75,6 +75,7 @@
 					$imagem       = $agenda["imagem"];
 					$descricao    = $agenda["descricao"];
 					$ingresso     = $agenda["ingresso"];
+					$ingresso     = ' R$ ' . number_format($ingresso, 2, ',', '.');
 					$data         = $agenda["data"];
 					$horario      = $agenda["horario"];
 					$local        = $agenda["local"];

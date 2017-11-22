@@ -58,13 +58,13 @@
 				<h1 class='center'>Quiz</h1>   
                 <form method="POST" action="quiz_perguntas3.php">
 					<div class='row'>
-						<div class='col s10 offset-s2'>
+						<div class='col s12 offset-s0 m10 push-m1 pull-m1 offset-l2 l10'>
 							<div class='card-panel col s12 center' id='containerCard'>
 								<div class='row center'>
-									<h1 class='flow-text perguntatxt'>2 - Quantos senadores tem por estado?</h1>
+									<h1 class='flow-text perguntatxt'>2 - Quantos senadores têm por estado?</h1>
 								</div> 
 								<div class='row center'>
-									<img class='img responsive-img'src='../imgs/quiz/5a0a2f0b8863f.png'>
+									<img class='img responsive-img'src='../imgs/quiz/Pergunta 2.png'>
 								</div> 
 								<div class='row'>
 									<input type="hidden" name="questao1" value='<?php echo $questao1; ?>'>

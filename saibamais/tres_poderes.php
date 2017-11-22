@@ -22,12 +22,12 @@
 					</div>
 				</nav>			
 			<div class="center">
-				<h1>3 Poderes</h1>
+				<h2>3 Poderes</h2>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="flow-text"><br>
-						<p class="justificar" id="capitular">O conceito da tripartite (divisão da política em 3 tipos de governos diferentes) é falada diversas vezes na história, e um dos primeiros autores a falar sobre esse assunto é o pensador grego Aristóteles na sua obra “A política”, e lá Aristóteles defendia que o governo precisaria se separar em três. Hoje no Brasil não aplicamos as mesmas ideias de Aristóteles, pois o pensador grego defendia que o estado deveria ser divido em Poder Deliberativo, Poder Executivo e o Poder Judiciário.</p>
+						<p class="justificar" id="capitular">O conceito da tripartite (divisão da política em 3 tipos de governos diferentes) é falada diversas vezes na história, e um dos primeiros autores a falar sobre esse assunto é o pensador grego Aristóteles na sua obra “A política”, e lá Aristóteles defendia que o governo precisaria se separar em três. Hoje no Brasil não aplicamos as mesmas ideias de Aristóteles, pois o pensador grego defendia que o estado deveria ser dividido em Poder Deliberativo, Poder Executivo e o Poder Judiciário.</p>
 						<p>Porém atualmente não utilizamos o Poder Deliberativo, mas sim o Poder Legislativo.</p><br>
 						<h4 class="center">Executivo</h4>			
 							<p class="justificar">Esse poder é responsável por garantir todas as necessidades e os direitos dos cidadãos. E essa garantia deve estar de acordo com a atual Constituição Federal, como o sistema adotado pelo Brasil é o presidencialista o líder do Poder Executivo é o atual Presidente, que por sua vez é eleito pelo voto democrático.</p>
