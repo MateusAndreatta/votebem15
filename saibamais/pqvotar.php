@@ -29,7 +29,7 @@
 					<div class="flow-text"><br><!--inicio saiba+ -->
 						<h4 class="center">Você sabe como votar?</h4>			
 							<p class="justificar" id="capitular">O voto é uma das maiores representações de cidadania que existem, pois é ele que faz com que o seu país melhore, e sabendo escolher os seus candidatos você muda o rumo da sua nação.
-								Na maior parte da história o povo não teve voz, principalmente quando pensamos nas monarquias europeias. Nessa época tivemos reis poderosos apenas defendo seus interesses e os interesses de seus aliados, e assim a plebe (pessoas comuns) não tinha voz.
+								Na maior parte da história o povo não teve voz, principalmente quando pensamos nas monarquias europeias. Nessa época tivemos reis poderosos apenas defendendo seus interesses e os interesses de seus aliados, e assim a plebe (pessoas comuns) não tinha voz.
 								Também podemos citar a “luta” das mulheres por direito ao voto. Elas tiveram que enfrentar diversas aversões de uma sociedade mais machista do que temos atualmente. 
 								E tenha certeza que se os plebeus da época das monarquias ou até mesmo as mulheres do inicio do século XX tivessem a oportunidade de escolher seus representantes, eles fariam de bom grado.
 								Então escolha seus candidatos com responsabilidade e nos dias de votação saia do seu sofá e vá votar, e escolha o seu representante. 
