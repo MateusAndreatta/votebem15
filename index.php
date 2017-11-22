@@ -11,14 +11,19 @@
     <link type="text/css" rel="stylesheet" href="css/cards.css" media="screen,projection" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+    </script>
 </head>
 
     <style>
     
-    .parallax-container {
+   /* .parallax-container {
       height: 550px;
-    }
+    }*/
     .espaco{
         margin: 15px;
     }
@@ -29,11 +34,11 @@
         font-weight: bold;
         text-shadow: 2px 2px 4px #000000;
     }
-        .separador{
-            height: 4px;
-            width: 45px;   
-            margin-top: -10px;
-        }
+    .separador{
+        height: 4px;
+        width: 45px;   
+        margin-top: -10px;
+    }
     
     </style>
     
@@ -41,7 +46,7 @@
     <main>
         <?php include "PaginasProcessamento/nav.php"; ?>
 
-        <div class="parallax-container hide-on-small-only	">
+        <div class="parallax-container hide-on-small-only">
             <img src="imgs/footer-logo.png" class="right espaco" alt="logo votebem" title="Logo Vote Bem"><br>
             <h2 class="posicionamento white-text">Em busca de um país melhor,<br> o primeiro passo é Votar Bem</h2>
             <div class="parallax">
@@ -50,7 +55,7 @@
         </div>
         
         <div class="row">
-            <h1 class="center">Se conscientize e vote bem!</h1>
+            <h2 class="center">Se conscientize e vote bem!</h2>
             
             <center><div class="separador blue"></div></center>
         </div>
@@ -168,7 +173,7 @@
     </footer>
 
         
-        <script type="text/javascript" src="js/materialize.min.js"></script>
+       
     <script type="text/javascript" src="js/custom.js"></script>
 </body>
 
