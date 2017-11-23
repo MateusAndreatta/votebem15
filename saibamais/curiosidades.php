@@ -28,7 +28,7 @@
 				<div class="row">
 					<div class="flow-text"><br><!--inicio saiba+ -->
 						<h4 class="center">O presidente que ficou menos tempo do poder:</h4>			
-							<p class="justificar">O presidente que passou mais rápido que a luz foi o Carlos Luz (nome bem sugestivo) que ficou no mais alto cargo político (presidente) por apenas 3 dias, o rapidinho chegou ao poder como o substituto de até então Café Filho.</p>
+							<p class="justificar" id="capitular">O presidente que passou mais rápido que a luz foi o Carlos Luz (nome bem sugestivo) que ficou no mais alto cargo político (presidente) por apenas 3 dias, o rapidinho chegou ao poder como o substituto de até então Café Filho.</p>
 							<p class="justificar">Luz foi impedido de prosseguir e continuar no poder, pelo congresso, pois segundo os congressistas, o “The Flash”, Carlos Luz estava impedindo que o próximo presidente eleito ocupasse o cargo de presidente (na época era o Juscelino Kubitschek).</p>
 							<p class="justificar">Em contrapartida o presidente que mais tempo ficou no poder foi o gaúcho Getúlio Vargas que ficou por 18 anos, 6 meses e 19 dias. Para ser mais preciso, ele ficou 6775 dias como maior político do Brasil.</p>
 					</div><br>

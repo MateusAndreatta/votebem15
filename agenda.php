@@ -1,15 +1,16 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<title>Vote Bem - Agenda de Eventos</title>
-		<link rel="icon" href="imgs/favicon.ico">
-		<meta charset="UTF-8">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-		<link rel="stylesheet" href="css/estilo.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	</head>
-	<?php
+
+<head>
+    <title>Vote Bem - Agenda de Eventos</title>
+    <link rel="icon" href="imgs/favicon.ico">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<?php
 		if(isset($_POST['periodo'])){
 				$dataInicial = $_POST['dataInicial'];
 				$dataFinal   = $_POST['dataFinal'];
@@ -18,7 +19,7 @@
 			$order = "";
 		}
 	?>
-	<?php
+    <?php
 		
 		$sql = "SELECT * FROM tb_eventos $order";
 		include "PaginasProcessamento/conexao.php";
@@ -26,49 +27,60 @@
 		$vb -> execute();
 
 	?>
-	<style>
-		.img{
-			padding-top:3%;
-		}
-		.botao{
-			margin:0 auto;
-		}
-	</style>
-	<body>
-		<main>
-			<?php include "PaginasProcessamento/nav.php"; ?>
-				<nav>
-					<div class="nav-wrapper blue espacamento-lateral">
-						<div class="col s12">
-							<a href="index.php" class="breadcrumb">Home</a>
-							<a href="agenda.php" class="breadcrumb">Agenda</a>
-						</div>
-					</div>
-				</nav>
-			<div class='container'>
-				<h1 class='center'>Agenda de Eventos</h1><br><br>
-				<form method="POST" action="" class="col s12">
-				<div class="row">
-					<p><h5>Selecione um período:</h5></p>
-					<div class="input-field col s12 m6">
-						<i class="material-icons prefix">event_note</i>
-						<input id="de" name="dataInicial" type="date" required class="validate">
-					</div>
-					<div class="input-field col s12 m6">
-						<i class="material-icons prefix">event_note</i>
-						<input id="ate" name="dataFinal" type="date" required class="validate">
-					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col s12 m12 l12 center">
-						<button class="btn waves-effect waves-light blue botao" type="submit" name="periodo">Conferir
-							<i class="material-icons right">send</i>
-						</button>
-					</div>
-				</div>
-				<br><br>
-			</form>
-			<?php
+        <style>
+            .img {
+                padding-top: 3%;
+            }
+
+            .botao {
+                margin: 0 auto;
+            }
+
+            .separador {
+                height: 4px;
+                width: 45px;
+                margin-top: -10px;
+            }
+
+        </style>
+
+        <body>
+            <main>
+                <?php include "PaginasProcessamento/nav.php"; ?>
+                <nav>
+                    <div class="nav-wrapper blue espacamento-lateral">
+                        <div class="col s12">
+                            <a href="index.php" class="breadcrumb">Home</a>
+                            <a href="agenda.php" class="breadcrumb">Agenda</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class='container'>
+                    <h1 class='center'>Agenda de Eventos</h1><br><br>
+                    <form method="POST" action="" class="col s12">
+                        <div class="row">
+                            <p>
+                                <h5>Selecione um período:</h5>
+                            </p>
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">event_note</i>
+                                <input id="de" name="dataInicial" type="date" required class="validate">
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">event_note</i>
+                                <input id="ate" name="dataFinal" type="date" required class="validate">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 m12 l12 center">
+                                <button class="btn waves-effect waves-light blue botao" type="submit" name="periodo">Conferir
+							         <i class="material-icons right">send</i>
+						          </button>
+                            </div>
+                        </div>
+                        <br><br>
+                    </form>
+                    <?php
 				foreach($vb as $agenda){
 					$id           = $agenda['id_evento'];
 					$nome         = $agenda["nome"];
@@ -95,33 +107,52 @@
 				</div><hr>";
 				}
 			?>
-			</div>
-				<!-- FIM DOS BLOCOS -->		
-		</main>
-		<footer class="page-footer blue">
-			<div class="container">
-				<div class="row">
-					<div class="col l6 s12">
-						<p><a href="index.php"><img src="imgs/footer-logo.png"></a></p>
-					</div>
-					<div class="col l4 offset-l2 s12">
-						<h5 class="white-text">Compartilhe</h5>
-						<ul>
-							<li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-							<li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-							<li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="footer-copyright">
-				<div class="container">
-					© 2017 Copyright - Todos os direitos reservados
-				</div>
-			</div>
-		</footer>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.min.js"></script>
-		<script type="text/javascript" src="js/custom.js"></script>
-	</body>
+                </div>
+                <!-- FIM DOS BLOCOS -->
+
+                <h1 class="center">Contagem para a próxima eleição</h1>
+            <div class="container center">
+            <div class="row">
+                <div class="col s12 m4">
+                    <h1 style="font-size:15em;">10</h1>
+                    <h3>Meses</h3>
+                </div>
+                <div class="col s12 m4">
+                    <h1 style="font-size:15em;">1</h1>
+                    <h3>Semanas</h3>
+                </div>
+                <div class="col s12 m4">
+                    <h1 style="font-size:15em;">1</h1>
+                    <h3>Dias</h3>
+                </div>
+            </div>
+                </div>
+            </main>
+            <footer class="page-footer blue">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <p><a href="index.php"><img src="imgs/footer-logo.png"></a></p>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Compartilhe</h5>
+                            <ul>
+                                <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        © 2017 Copyright - Todos os direitos reservados
+                    </div>
+                </div>
+            </footer>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="js/materialize.min.js"></script>
+            <script type="text/javascript" src="js/custom.js"></script>
+        </body>
+
 </html>

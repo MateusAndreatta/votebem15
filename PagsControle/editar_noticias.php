@@ -111,11 +111,11 @@ assim ele manda pro bd porem como nao tem o $formato ficao somente o nome tempor
 					<form method='POST' action='' class='col s12'  enctype="multipart/form-data">
 				        <div class="row">
                         <div class="input-field col s6">
-                          <input id="titulo" name="titulo" value='<?php if(isset($noticias)){echo $noticias['titulo_noticia'];}?>' type="text" class="validate" data-length="30">
+                          <input id="titulo" name="titulo" value='<?php if(isset($noticias)){echo $noticias['titulo_noticia'];}?>' type="text" class="validate" data-length="50">
                           <label for="titulo">Titulo da notícia</label>
                         </div>
                         <div class="input-field col s6">
-                          <input id="resumo" name="resumo" type="text" value='<?php if(isset($noticias)){echo $noticias['resumo'];}?>'  class="validate" data-length="50">
+                          <input id="resumo" name="resumo" type="text" value='<?php if(isset($noticias)){echo $noticias['resumo'];}?>'  class="validate" data-length="60">
                           <label for="resumo">Resumo da notícia</label>
                         </div>
                       </div>

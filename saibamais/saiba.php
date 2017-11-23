@@ -83,7 +83,7 @@
 									<img class="activator" src="../imgs/saiba+/porque_votar.png">
 								</div>
 								<div class="card-content">
-									<span class="card-title activator grey-text text-darken-4">Por quê votar?<i class="material-icons right">more_vert</i></span>
+									<span class="card-title activator grey-text text-darken-4">Por que votar?<i class="material-icons right">more_vert</i></span>
 									<p><a href="pqvotar.php">Clique aqui para acessar</a></p>
 								</div>
 								<div class="card-reveal">

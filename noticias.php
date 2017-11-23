@@ -11,11 +11,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
 <?PHP
-		$sql = "SELECT * FROM tb_noticias";
+		$sql = "SELECT * FROM tb_noticias ORDER BY id_noticia DESC ";
 		include "PaginasProcessamento/conexao.php";
 		$vb = $banco -> prepare($sql);
 		$vb -> execute();
 	?>
+    
+    <style>
+        .justify{
+            text-align: justify;
+        }
+        .corpo{
+            font-size: 20px;
+        }
+    </style>
+    
 <body>
     <main>
         <?php include "PaginasProcessamento/nav.php"; ?>		
@@ -54,7 +64,7 @@
                                 <div id='$modalid' class='modal modal-fixed-footer'>
                                     <div class='modal-content'>
                                         <h4>$titulo</h4>
-                                        <p class='left-align'>$texto</p>
+                                        <p class='justify corpo'>$texto</p>
                                     </div>
                                     <div class='modal-footer'>
                                         <a href='#!' class='modal-action modal-close waves-effect waves-blue btn-flat'>Sair</a>

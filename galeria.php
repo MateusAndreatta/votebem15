@@ -52,9 +52,6 @@
 					<img class="materialboxed img" width="150px" height="150px" title="Manifestação" alt="Manifestação" src="imgs/galeria/imgn6.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" title="Humberto de Alencar " alt="Humberto de Alencar" src="imgs/galeria/imgn7.jpg">
-				</div>
-				<div class="col m3 s6 l2">
 					<img class="materialboxed img" width="150px" height="150px" title="Monitoramento" alt="Monitoramento" src="imgs/galeria/imgn8.jpg">
 				</div>
 				<div class="col m3 s6 l2">
@@ -67,9 +64,6 @@
 					<img class="materialboxed img" width="150px" height="150px" title="Senado Nacional" alt="Senado Nacional" src="imgs/galeria/imgn11.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" title="Getúlio Vargas" alt="Getúlio Vargas" src="imgs/galeria/imgn12.jpg">
-				</div>
-				<div class="col m3 s6 l2">
 					<img class="materialboxed img" width="150px" height="150px" title="Energia Eólica" alt="Energia Eólica" src="imgs/galeria/imgn13.jpg">
 				</div>
 				<div class="col m3 s6 l2">
@@ -77,18 +71,6 @@
 				</div>
 				<div class="col m3 s6 l2">
 					<img class="materialboxed img" width="150px" height="150px" title="Bandeira do Brasil" alt="Bandeira do Brasil" src="imgs/galeria/imgn15.jpg">
-				</div>
-				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" title="Juscelino Kubitschek" alt="Juscelino Kubitschek" src="imgs/galeria/imgn16.jpg">
-				</div>
-				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" title="Real" alt="Real"  src="imgs/galeria/imgn17.jpg">
-				</div>
-				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" title="Corrupção" alt="Corrupção" src="imgs/galeria/imgn18.jpg">
-				</div>
-				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" title="Lixão" alt="Lixão" src="imgs/galeria/imgn19.jpg">
 				</div>
 				<div class="col m3 s6 l2">
 					<img class="materialboxed img" width="150px" height="150px" title="Real" alt="Real" src="imgs/galeria/imgn20.jpg">

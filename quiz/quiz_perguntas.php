@@ -54,7 +54,7 @@
 						<div class='col s12 offset-s0 m10 push-m1 pull-m1 offset-l2 l10'>
 							<div class='card-panel col s12 center' id='containerCard'>
 								<div class='row center'>
-									<h1 class='flow-text perguntatxt'>1 - Quantos anos dura um mandato de um presidente?</h1>
+									<h1 class='flow-text perguntatxt'>1 - Quantos anos dura um mandato de um presidente da república?</h1>
 								</div> 
 								<div class='row center'>
 									<img class='img responsive-img'src='../imgs/quiz/Pergunta 1.png'>
@@ -99,11 +99,11 @@
             $n= $_GET['acertos'];
             if($n <= 2){
                 $titulo = "Precisa melhorar";
-                $conteudo = "Recomendamos que veja esses conteudos sobre política: <a href='../saibamais/saiba.php'>Saiba mais</a>";
+                $conteudo = "Recomendamos que veja esses conteúdos sobre política: <a href='../saibamais/saiba.php'>Saiba mais</a>";
             }
             if($n == 3){
                 $titulo = "Bom";
-                $conteudo = "Recomendamos que veja esses conteudos sobre política: <a href='../saibamais/saiba.php'>Saiba mais</a>";
+                $conteudo = "Recomendamos que veja esses conteúdos sobre política: <a href='../saibamais/saiba.php'>Saiba mais</a>";
             }
             if($n >= 4){
                 $titulo = "Parabéns";

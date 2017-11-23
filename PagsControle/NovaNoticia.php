@@ -71,7 +71,7 @@
                                 </div>
                             </div>
                         </div>
-                          <button class="btn waves-effect waves-light right" type="submit" name="action">Enviar
+                          <button class="btn waves-effect waves-light right" type="submit" name="action">Cadastrar Notícia
                             <i class="material-icons right">send</i>
                           </button>
                     </form>

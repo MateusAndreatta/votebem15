@@ -32,18 +32,18 @@
 								Segundo pesquisas 50% da população brasileira não sabe qual é sua posição política e muito menos sabem o que a “direita” e “esquerda” defendem, para começarmos a ter uma noção melhor temos que ir na origem desses termos. Esses termos começaram a ser usados na França do século 18, e se iniciou quando os burgueses franceses não concordaram com a participação dos mais pobres na Assembleia Nacional Constituinte e assim em forma de protesto eles se sentaram ao lado direito, e as pessoas que defendiam a participação das pobre e trabalhadores se sentaram à esquerda.
 							</p>
 						<h4>Esquerda:</h4>
-							<p class="justificar">Partidos de esquerda normalmente são voltados para ideais socialistas e comunistas (os ideais comunistas são baseados nas ideias de Karl Marx), e uma das maiores nações que eram neste modo político foi a URSS e atualmente temos Cuba e a Coreia do Norte.</p>
+							<p class="justificar">Partidos de esquerda normalmente são voltados para ideais socialistas e comunistas (os ideais comunistas são baseados nas ideias de Karl Marx), e uma das maiores nações que eram neste modo político foi a URSS (União das repúblicas socialistas soviéticas) e atualmente temos Cuba e a Coreia do Norte.</p>
 						<h4>Características:</h4>
-							<p class="justificar">Não existência de classes sociais;<br>
-								Economia controlada pelo estado;<br>
-								Estatização de empresas e de terras;<br>
+							<p class="justificar">1. Não existência de classes sociais;<br>
+								2. Economia controlada pelo estado;<br>
+								3. Estatização de empresas e de terras;<br>
 							</p>
 							<h4>Direita:</h4>
 							<p class="justificar">Partidos que se intitulam de direita tem ideais mais liberais (liberais são aqueles que defendem a não intervenção do estado na economia) economicamente e suas ideias são contrárias ao socialismo, a direita totalmente adepta ao capitalismo. Os países mais conhecidos são os Estados Unidos, Inglaterra, etc.</p>
 						<h4>Características:</h4>
-							<p class="justificar">Existência de classes sociais;<br>
-								Economia se autorregula, sem intervenção do estado;<br>
-								Não centralização do poder;<br>
+							<p class="justificar">1. Existência de classes sociais;<br>
+								2. Economia se autorregula, sem intervenção do estado;<br>
+								3. Não centralização do poder;<br>
 							</p>
 							<p class="justificar">Apesar de todos nós termos nossas ideias e nossos partidos, uma democracia saudável só se mantem quando um indivíduo respeita a opinião do outro.<br>
 								A única coisa pior que a ignorância é o ódio.
