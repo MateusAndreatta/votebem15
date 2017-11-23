@@ -34,94 +34,94 @@
 			<h1 class="center">Galeria</h1>
 			<div class="row"> 
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn1.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Palácio da Alvorada" alt="Palácio da Alvorada" src="imgs/galeria/imgn1.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn2.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Ordem e Progresso" alt="Ordem e Progresso" src="imgs/galeria/imgn2.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn3.png">
+					<img class="materialboxed img" width="150px" height="150px" title="Identidade Nacional" alt="Identidade Nacional" src="imgs/galeria/imgn3.png">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn4.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Catedral de Brasília" alt="Catedral de Brasília" src="imgs/galeria/imgn4.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn5.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Câmara dos Deputados" alt="Câmara dos Deputados" src="imgs/galeria/imgn5.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn6.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Manifestação" alt="Manifestação" src="imgs/galeria/imgn6.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn7.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Humberto de Alencar " alt="Humberto de Alencar" src="imgs/galeria/imgn7.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn8.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Monitoramento" alt="Monitoramento" src="imgs/galeria/imgn8.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn9.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Estratégia" alt="Estratégia" src="imgs/galeria/imgn9.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn10.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Executico" alt="Executico" src="imgs/galeria/imgn10.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn11.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Senado Nacional" alt="Senado Nacional" src="imgs/galeria/imgn11.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn12.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Getúlio Vargas" alt="Getúlio Vargas" src="imgs/galeria/imgn12.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn13.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Energia Eólica" alt="Energia Eólica" src="imgs/galeria/imgn13.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn14.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Grito do Ipiranga" alt="Grito do Ipiranga" src="imgs/galeria/imgn14.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn15.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Bandeira do Brasil" alt="Bandeira do Brasil" src="imgs/galeria/imgn15.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn16.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Juscelino Kubitschek" alt="Juscelino Kubitschek" src="imgs/galeria/imgn16.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn17.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Real" alt="Real"  src="imgs/galeria/imgn17.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn18.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Corrupção" alt="Corrupção" src="imgs/galeria/imgn18.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn19.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Lixão" alt="Lixão" src="imgs/galeria/imgn19.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn20.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Real" alt="Real" src="imgs/galeria/imgn20.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn21.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Manifestação" alt="Manifestação" src="imgs/galeria/img32.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn22.jpg">
+					<img class="materialboxed img" width="150px" height="150px"  title="Congresso Nacional" alt="Congresso Nacional" src="imgs/galeria/imgn22.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn23.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Congresso Nacional" alt="Congresso Nacional" src="imgs/galeria/imgn23.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn24.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Brasília" alt="Brasília" src="imgs/galeria/imgn24.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn25.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Palácio da Alvorada" alt="Palácio da Alvorada" src="imgs/galeria/imgn25.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn26.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Congresso Nacional" alt="Congresso Nacional" src="imgs/galeria/imgn26.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn27.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Bandeira do Brasil" alt="Bandeira do Brasil" src="imgs/galeria/imgn27.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn28.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Catedral de Brasília" alt="Catedral de Brasília" src="imgs/galeria/imgn28.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn29.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Catedral de Brasília" alt="Catedral de Brasília" src="imgs/galeria/imgn29.jpg">
 				</div>
 				<div class="col m3 s6 l2">
-					<img class="materialboxed img" width="150px" height="150px" src="imgs/galeria/imgn30.jpg">
+					<img class="materialboxed img" width="150px" height="150px" title="Palácio da Alvorada" alt="Palácio da Alvorada" src="imgs/galeria/imgn30.jpg">
 				</div>					
 			</div>
 		</div>
