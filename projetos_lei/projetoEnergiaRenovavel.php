@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Vote Bem - Projeto de Reutilização do Óleo</title>
+		<title>Vote Bem - Energia Renovável</title>
 		<link rel="icon" href="../imgs/favicon.ico">
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -24,6 +24,7 @@
             </nav>
 
             <div class="parallax-container">
+				<h4 class="subbanner">Energia renovável</h4>
                 <h1 class="center text-banners white-text">Energia Renovável</h1>
                 <div class="parallax">
                     <img src="../imgs/banners/energia-banner.jpg"/>

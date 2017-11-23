@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Vote Bem - Projeto QR Code</title>
+		<title>Vote Bem - Projeto ICMS</title>
 		<link rel="icon" href="../imgs/favicon.ico">
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -24,6 +24,7 @@
             </nav>
 
             <div class="parallax-container">
+				<h4 class="subbanner">ICMS</h4>
                 <h1 class="center text-banners white-text">ICMS</h1>
                 <div class="parallax">
                     <img src="../imgs/banners/icms-banner.jpg"/>

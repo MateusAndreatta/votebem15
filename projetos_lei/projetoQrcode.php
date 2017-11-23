@@ -24,6 +24,7 @@
             </nav>
 
             <div class="parallax-container">
+				<h4 class="subbanner">QR Code</h4>
                 <h1 class="center text-banners white-text">QR Code</h1>
                 <div class="parallax">
                     <img src="../imgs/banners/qrcode-banner.png"/>
