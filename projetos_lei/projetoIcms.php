@@ -24,7 +24,7 @@
             </nav>
 
             <div class="parallax-container">
-				<h4 class="subbanner">ICMS</h4>
+				<h4 class="subbanner">Projeto de lei</h4>
                 <h1 class="center text-banners white-text">ICMS</h1>
                 <div class="parallax">
                     <img src="../imgs/banners/icms-banner.jpg"/>

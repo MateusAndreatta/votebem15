@@ -24,7 +24,7 @@
             </nav>
 
             <div class="parallax-container">
-				<h4 class="subbanner">Energia renovável</h4>
+				<h4 class="subbanner">Projeto de lei</h4>
                 <h1 class="center text-banners white-text">Energia Renovável</h1>
                 <div class="parallax">
                     <img src="../imgs/banners/energia-banner.jpg"/>

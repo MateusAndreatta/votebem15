@@ -24,7 +24,7 @@
             </nav>
 
             <div class="parallax-container">
-				<h4 class="subbanner">Replantio de árvore nativa</h4>
+				<h4 class="subbanner">Projeto de lei</h4>
                 <h1 class="center text-banners white-text">Replantio de árvore nativa</h1>
                 <div class="parallax">
                     <img src="../imgs/banners/ipe-banner.jpg"/>
